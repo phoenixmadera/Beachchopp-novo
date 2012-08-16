@@ -17,6 +17,7 @@
 		echo $this->fetch('script');
 		echo $this->Html->script('jquery-1.8.0.min.js');
 		echo $this->Html->script('less-1.3.0.min.js');
+		echo $this->Html->script('global.js');
 		echo $this->Html->script('bootstrap/bootstrap-button.js');
 		echo $this->Html->script('bootstrap/bootstrap-dropdown.js');
 	?>
@@ -31,7 +32,7 @@
             <span class="icon-bar"></span>
           </a>
           <a class="brand" href="#">Beach Chopp</a>
-          <?php if ($this->Session->read('Auth.User'))
+          <?php if($this->Session->read('Auth.User'))
            				echo $this->element('top-menu'); ?>
         </div>
       </div>
@@ -40,8 +41,8 @@
       <div class="row-fluid">
 <?php 	echo $content_for_layout; ?>
       </div>
-      <hr>
       <footer>
+      	<hr>
         <p>&copy; Company 2012</p>
       </footer>
     </div><!--/.fluid-container-->

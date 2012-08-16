@@ -1,4 +1,5 @@
 //Variables
+@hr-footer-margin: 100%;
 
 //Functions
 .centralize () {
@@ -12,7 +13,32 @@
 .emptyMargin() { margin: 0px; 
 							 padding: 0px; }
 
+.outerDiv(@width: auto) { min-height: 20px;
+													width: @width;
+													.centralize;
+													padding: 19px;
+													padding-top: 5px;
+													margin-bottom: 20px;
+													background-color: whiteSmoke;
+													border: 1px solid #EEE;
+													-webkit-border-radius: 4px;
+													-moz-border-radius: 4px;
+													border-radius: 4px;
+													-webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.05);
+													-moz-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.05);
+													box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.05);	}
+
 //Page elements
+
+.row-fluid {	.setDisplay;	}
+footer {	position: absolute;
+					bottom: 0;
+					.setSize(@hr-footer-margin);
+					margin-left: -20px;
+					margin-right: -20px;
+					p {	padding-left: 20px;	}	
+}
+
 .login-form {	.setSize(259px);
 							.centralize;
 							.well {	padding-top: 5px;
@@ -23,3 +49,13 @@
 .row-fluid {	margin-top: 55px;	}
 
 .message { display: inline;	}
+
+.add-address {	.outerDiv(312px);
+								h2 {	float: left;	}
+								.btn.primary{	float: right;	}	
+								.botao-voltar {	float: right;
+																margin-top: 13px;	}
+								.legenda {	margin-top: 20px;
+														margin-bottom: 5px;	}
+								input[type="text"] {	.setSize(100%);	}
+}

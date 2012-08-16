@@ -1132,7 +1132,7 @@ class FormHelper extends AppHelper {
 		if ($type != 'hidden' && $error !== false) {
 			$errMsg = $this->error($fieldName, $error);
 			if ($errMsg) {
-				$divOptions = $this->addClass($divOptions, 'error');
+				$divOptions = $this->addClass($divOptions, 'control-group error');
 				$out['error'] = $errMsg;
 			}
 		}

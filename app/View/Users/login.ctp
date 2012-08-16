@@ -1,7 +1,7 @@
 <?php if(isset($erro)): ?>
 				<script type = "text/javascript">
 					$(document).ready(function() {
-						$('.alert').css('display', 'block');
+						$('.alert-error').toggleAlert();
 					});
 				</script>
 <?php endif; ?>

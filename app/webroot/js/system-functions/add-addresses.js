@@ -1,30 +1,29 @@
 $(document).ready(function() {
+
 	var state_value_default = $('#EnderecoStates').html();
 	var city_value_default = $('#EnderecoCities').html();
+
 	//Função que faz o controle do option selecionado.
 	$.fn.control = function(){
+		$.fn.deleteInputs = function(){
+			$('.input.select.country').remove();
+			$('.input.select.state').remove();
+			$('.input.select.city').remove();
+		}
 		$('#EnderecoType option:selected').each(function() {
 			switch($(this).val()) { 
 				case 'P': 
-					$('.input.select.country').remove();
-					$('.input.select.state').remove();
-					$('.input.select.city').remove();
+					$(this).deleteInputs();
         break;
 				case 'E':
-					$('.input.select.country').remove();
-					$('.input.select.state').remove();
-					$('.input.select.city').remove();
+					$(this).deleteInputs();
 					var country_select = $('#EnderecoCountries').html();
 					$('#EnderecoAdicionaForm .input.select.type').after('<div class="input select country">');
 					$('.input.select.country').hide().html('<label for = "EnderecoCountries">País</label>'+
 																							 '<select name="data[Endereco][countries]" id="EnderecoCountries">'+country_select+'</select>').fadeIn('slow');
 				break;
 				case 'C':
-					//Remove os campos da outra opção
-					$('.input.select.country').remove();
-					$('.input.select.city').remove();
-					$('.input.select.state').remove();
-					
+					$(this).deleteInputs();
 					//Define variaveis
 					var country_select = $('#EnderecoCountries').html();
 					var state_select = $('#EnderecoStates').html();
@@ -60,12 +59,4 @@ $(document).ready(function() {
 			}
 		});
 	}
-	//Chama a função acima quando a página carregar.
-	$('#EnderecoType').control();
-	
-	//Chama a função acima quando mudar o select.
-	$('#EnderecoType').change(function(){
-		$(this).control();
- });
-	 
  }); 

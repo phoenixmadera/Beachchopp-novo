@@ -681,3 +681,840 @@
 #1 /Applications/XAMPP/xamppfiles/htdocs/beachchopp-novo/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(AppController), Object(CakeRequest), Object(CakeResponse))
 #2 /Applications/XAMPP/xamppfiles/htdocs/Beachchopp-novo/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
 #3 {main}
+2012-08-16 19:40:15 Error: [MissingActionException] Action AppController::webroot() could not be found.
+#0 /Applications/XAMPP/xamppfiles/htdocs/beachchopp-novo/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#1 /Applications/XAMPP/xamppfiles/htdocs/beachchopp-novo/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(AppController), Object(CakeRequest), Object(CakeResponse))
+#2 /Applications/XAMPP/xamppfiles/htdocs/Beachchopp-novo/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-08-16 19:41:50 Error: [MissingActionException] Action AppController::webroot() could not be found.
+#0 /Applications/XAMPP/xamppfiles/htdocs/beachchopp-novo/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#1 /Applications/XAMPP/xamppfiles/htdocs/beachchopp-novo/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(AppController), Object(CakeRequest), Object(CakeResponse))
+#2 /Applications/XAMPP/xamppfiles/htdocs/Beachchopp-novo/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-08-16 19:41:52 Error: [MissingActionException] Action AppController::webroot() could not be found.
+#0 /Applications/XAMPP/xamppfiles/htdocs/beachchopp-novo/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#1 /Applications/XAMPP/xamppfiles/htdocs/beachchopp-novo/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(AppController), Object(CakeRequest), Object(CakeResponse))
+#2 /Applications/XAMPP/xamppfiles/htdocs/Beachchopp-novo/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-08-16 19:46:38 Error: [MissingControllerException] Controller class ProdutosController could not be found.
+#0 /Applications/XAMPP/xamppfiles/htdocs/beachchopp-novo/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-08-16 19:46:38 Error: [MissingActionException] Action AppController::webroot() could not be found.
+#0 /Applications/XAMPP/xamppfiles/htdocs/beachchopp-novo/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#1 /Applications/XAMPP/xamppfiles/htdocs/beachchopp-novo/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(AppController), Object(CakeRequest), Object(CakeResponse))
+#2 /Applications/XAMPP/xamppfiles/htdocs/Beachchopp-novo/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-08-16 19:46:41 Error: [MissingActionException] Action AppController::webroot() could not be found.
+#0 /Applications/XAMPP/xamppfiles/htdocs/beachchopp-novo/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#1 /Applications/XAMPP/xamppfiles/htdocs/beachchopp-novo/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(AppController), Object(CakeRequest), Object(CakeResponse))
+#2 /Applications/XAMPP/xamppfiles/htdocs/Beachchopp-novo/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-08-16 19:46:43 Error: [MissingActionException] Action AppController::webroot() could not be found.
+#0 /Applications/XAMPP/xamppfiles/htdocs/beachchopp-novo/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#1 /Applications/XAMPP/xamppfiles/htdocs/beachchopp-novo/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(AppController), Object(CakeRequest), Object(CakeResponse))
+#2 /Applications/XAMPP/xamppfiles/htdocs/Beachchopp-novo/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-08-16 19:46:55 Error: [MissingActionException] Action AppController::webroot() could not be found.
+#0 /Applications/XAMPP/xamppfiles/htdocs/beachchopp-novo/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#1 /Applications/XAMPP/xamppfiles/htdocs/beachchopp-novo/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(AppController), Object(CakeRequest), Object(CakeResponse))
+#2 /Applications/XAMPP/xamppfiles/htdocs/Beachchopp-novo/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-08-16 19:51:10 Error: [MissingActionException] Action AppController::webroot() could not be found.
+#0 /Applications/XAMPP/xamppfiles/htdocs/beachchopp-novo/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#1 /Applications/XAMPP/xamppfiles/htdocs/beachchopp-novo/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(AppController), Object(CakeRequest), Object(CakeResponse))
+#2 /Applications/XAMPP/xamppfiles/htdocs/Beachchopp-novo/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-08-16 19:51:12 Error: [MissingActionException] Action AppController::webroot() could not be found.
+#0 /Applications/XAMPP/xamppfiles/htdocs/beachchopp-novo/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#1 /Applications/XAMPP/xamppfiles/htdocs/beachchopp-novo/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(AppController), Object(CakeRequest), Object(CakeResponse))
+#2 /Applications/XAMPP/xamppfiles/htdocs/Beachchopp-novo/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-08-16 19:51:33 Error: [MissingActionException] Action AppController::webroot() could not be found.
+#0 /Applications/XAMPP/xamppfiles/htdocs/beachchopp-novo/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#1 /Applications/XAMPP/xamppfiles/htdocs/beachchopp-novo/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(AppController), Object(CakeRequest), Object(CakeResponse))
+#2 /Applications/XAMPP/xamppfiles/htdocs/Beachchopp-novo/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-08-16 19:51:35 Error: [MissingActionException] Action AppController::webroot() could not be found.
+#0 /Applications/XAMPP/xamppfiles/htdocs/beachchopp-novo/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#1 /Applications/XAMPP/xamppfiles/htdocs/beachchopp-novo/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(AppController), Object(CakeRequest), Object(CakeResponse))
+#2 /Applications/XAMPP/xamppfiles/htdocs/Beachchopp-novo/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-08-16 19:51:37 Error: [MissingActionException] Action AppController::webroot() could not be found.
+#0 /Applications/XAMPP/xamppfiles/htdocs/beachchopp-novo/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#1 /Applications/XAMPP/xamppfiles/htdocs/beachchopp-novo/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(AppController), Object(CakeRequest), Object(CakeResponse))
+#2 /Applications/XAMPP/xamppfiles/htdocs/Beachchopp-novo/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-08-16 19:52:29 Error: [MissingActionException] Action AppController::webroot() could not be found.
+#0 /Applications/XAMPP/xamppfiles/htdocs/beachchopp-novo/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#1 /Applications/XAMPP/xamppfiles/htdocs/beachchopp-novo/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(AppController), Object(CakeRequest), Object(CakeResponse))
+#2 /Applications/XAMPP/xamppfiles/htdocs/Beachchopp-novo/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-08-16 19:52:31 Error: [MissingActionException] Action AppController::webroot() could not be found.
+#0 /Applications/XAMPP/xamppfiles/htdocs/beachchopp-novo/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#1 /Applications/XAMPP/xamppfiles/htdocs/beachchopp-novo/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(AppController), Object(CakeRequest), Object(CakeResponse))
+#2 /Applications/XAMPP/xamppfiles/htdocs/Beachchopp-novo/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-08-16 19:52:33 Error: [MissingActionException] Action AppController::webroot() could not be found.
+#0 /Applications/XAMPP/xamppfiles/htdocs/beachchopp-novo/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#1 /Applications/XAMPP/xamppfiles/htdocs/beachchopp-novo/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(AppController), Object(CakeRequest), Object(CakeResponse))
+#2 /Applications/XAMPP/xamppfiles/htdocs/Beachchopp-novo/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-08-16 19:52:54 Error: [MissingActionException] Action AppController::webroot() could not be found.
+#0 /Applications/XAMPP/xamppfiles/htdocs/beachchopp-novo/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#1 /Applications/XAMPP/xamppfiles/htdocs/beachchopp-novo/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(AppController), Object(CakeRequest), Object(CakeResponse))
+#2 /Applications/XAMPP/xamppfiles/htdocs/Beachchopp-novo/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-08-16 19:52:55 Error: [MissingActionException] Action AppController::webroot() could not be found.
+#0 /Applications/XAMPP/xamppfiles/htdocs/beachchopp-novo/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#1 /Applications/XAMPP/xamppfiles/htdocs/beachchopp-novo/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(AppController), Object(CakeRequest), Object(CakeResponse))
+#2 /Applications/XAMPP/xamppfiles/htdocs/Beachchopp-novo/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-08-16 19:52:57 Error: [MissingActionException] Action AppController::webroot() could not be found.
+#0 /Applications/XAMPP/xamppfiles/htdocs/beachchopp-novo/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#1 /Applications/XAMPP/xamppfiles/htdocs/beachchopp-novo/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(AppController), Object(CakeRequest), Object(CakeResponse))
+#2 /Applications/XAMPP/xamppfiles/htdocs/Beachchopp-novo/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-08-16 19:54:09 Error: [MissingActionException] Action AppController::webroot() could not be found.
+#0 /Applications/XAMPP/xamppfiles/htdocs/beachchopp-novo/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#1 /Applications/XAMPP/xamppfiles/htdocs/beachchopp-novo/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(AppController), Object(CakeRequest), Object(CakeResponse))
+#2 /Applications/XAMPP/xamppfiles/htdocs/Beachchopp-novo/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-08-16 19:54:10 Error: [MissingActionException] Action AppController::webroot() could not be found.
+#0 /Applications/XAMPP/xamppfiles/htdocs/beachchopp-novo/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#1 /Applications/XAMPP/xamppfiles/htdocs/beachchopp-novo/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(AppController), Object(CakeRequest), Object(CakeResponse))
+#2 /Applications/XAMPP/xamppfiles/htdocs/Beachchopp-novo/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-08-16 19:55:51 Error: [MissingActionException] Action AppController::webroot() could not be found.
+#0 /Applications/XAMPP/xamppfiles/htdocs/beachchopp-novo/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#1 /Applications/XAMPP/xamppfiles/htdocs/beachchopp-novo/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(AppController), Object(CakeRequest), Object(CakeResponse))
+#2 /Applications/XAMPP/xamppfiles/htdocs/Beachchopp-novo/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-08-16 19:55:56 Error: [MissingActionException] Action AppController::webroot() could not be found.
+#0 /Applications/XAMPP/xamppfiles/htdocs/beachchopp-novo/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#1 /Applications/XAMPP/xamppfiles/htdocs/beachchopp-novo/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(AppController), Object(CakeRequest), Object(CakeResponse))
+#2 /Applications/XAMPP/xamppfiles/htdocs/Beachchopp-novo/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-08-16 19:56:25 Error: [MissingActionException] Action AppController::webroot() could not be found.
+#0 /Applications/XAMPP/xamppfiles/htdocs/beachchopp-novo/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#1 /Applications/XAMPP/xamppfiles/htdocs/beachchopp-novo/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(AppController), Object(CakeRequest), Object(CakeResponse))
+#2 /Applications/XAMPP/xamppfiles/htdocs/Beachchopp-novo/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-08-16 19:56:27 Error: [MissingActionException] Action AppController::webroot() could not be found.
+#0 /Applications/XAMPP/xamppfiles/htdocs/beachchopp-novo/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#1 /Applications/XAMPP/xamppfiles/htdocs/beachchopp-novo/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(AppController), Object(CakeRequest), Object(CakeResponse))
+#2 /Applications/XAMPP/xamppfiles/htdocs/Beachchopp-novo/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-08-16 19:56:28 Error: [MissingActionException] Action AppController::webroot() could not be found.
+#0 /Applications/XAMPP/xamppfiles/htdocs/beachchopp-novo/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#1 /Applications/XAMPP/xamppfiles/htdocs/beachchopp-novo/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(AppController), Object(CakeRequest), Object(CakeResponse))
+#2 /Applications/XAMPP/xamppfiles/htdocs/Beachchopp-novo/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-08-16 19:56:50 Error: [MissingActionException] Action AppController::webroot() could not be found.
+#0 /Applications/XAMPP/xamppfiles/htdocs/beachchopp-novo/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#1 /Applications/XAMPP/xamppfiles/htdocs/beachchopp-novo/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(AppController), Object(CakeRequest), Object(CakeResponse))
+#2 /Applications/XAMPP/xamppfiles/htdocs/Beachchopp-novo/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-08-16 19:56:52 Error: [MissingActionException] Action AppController::webroot() could not be found.
+#0 /Applications/XAMPP/xamppfiles/htdocs/beachchopp-novo/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#1 /Applications/XAMPP/xamppfiles/htdocs/beachchopp-novo/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(AppController), Object(CakeRequest), Object(CakeResponse))
+#2 /Applications/XAMPP/xamppfiles/htdocs/Beachchopp-novo/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-08-16 19:57:21 Error: [MissingActionException] Action AppController::webroot() could not be found.
+#0 /Applications/XAMPP/xamppfiles/htdocs/beachchopp-novo/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#1 /Applications/XAMPP/xamppfiles/htdocs/beachchopp-novo/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(AppController), Object(CakeRequest), Object(CakeResponse))
+#2 /Applications/XAMPP/xamppfiles/htdocs/Beachchopp-novo/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-08-16 19:57:23 Error: [MissingActionException] Action AppController::webroot() could not be found.
+#0 /Applications/XAMPP/xamppfiles/htdocs/beachchopp-novo/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#1 /Applications/XAMPP/xamppfiles/htdocs/beachchopp-novo/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(AppController), Object(CakeRequest), Object(CakeResponse))
+#2 /Applications/XAMPP/xamppfiles/htdocs/Beachchopp-novo/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-08-16 19:57:24 Error: [MissingActionException] Action AppController::webroot() could not be found.
+#0 /Applications/XAMPP/xamppfiles/htdocs/beachchopp-novo/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#1 /Applications/XAMPP/xamppfiles/htdocs/beachchopp-novo/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(AppController), Object(CakeRequest), Object(CakeResponse))
+#2 /Applications/XAMPP/xamppfiles/htdocs/Beachchopp-novo/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-08-16 19:57:26 Error: [MissingActionException] Action AppController::webroot() could not be found.
+#0 /Applications/XAMPP/xamppfiles/htdocs/beachchopp-novo/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#1 /Applications/XAMPP/xamppfiles/htdocs/beachchopp-novo/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(AppController), Object(CakeRequest), Object(CakeResponse))
+#2 /Applications/XAMPP/xamppfiles/htdocs/Beachchopp-novo/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-08-16 19:57:36 Error: [MissingActionException] Action AppController::webroot() could not be found.
+#0 /Applications/XAMPP/xamppfiles/htdocs/beachchopp-novo/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#1 /Applications/XAMPP/xamppfiles/htdocs/beachchopp-novo/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(AppController), Object(CakeRequest), Object(CakeResponse))
+#2 /Applications/XAMPP/xamppfiles/htdocs/Beachchopp-novo/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-08-16 19:57:38 Error: [MissingActionException] Action AppController::webroot() could not be found.
+#0 /Applications/XAMPP/xamppfiles/htdocs/beachchopp-novo/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#1 /Applications/XAMPP/xamppfiles/htdocs/beachchopp-novo/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(AppController), Object(CakeRequest), Object(CakeResponse))
+#2 /Applications/XAMPP/xamppfiles/htdocs/Beachchopp-novo/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-08-16 19:59:43 Error: [MissingActionException] Action AppController::webroot() could not be found.
+#0 /Applications/XAMPP/xamppfiles/htdocs/beachchopp-novo/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#1 /Applications/XAMPP/xamppfiles/htdocs/beachchopp-novo/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(AppController), Object(CakeRequest), Object(CakeResponse))
+#2 /Applications/XAMPP/xamppfiles/htdocs/Beachchopp-novo/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-08-16 19:59:45 Error: [MissingActionException] Action AppController::webroot() could not be found.
+#0 /Applications/XAMPP/xamppfiles/htdocs/beachchopp-novo/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#1 /Applications/XAMPP/xamppfiles/htdocs/beachchopp-novo/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(AppController), Object(CakeRequest), Object(CakeResponse))
+#2 /Applications/XAMPP/xamppfiles/htdocs/Beachchopp-novo/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-08-16 19:59:47 Error: [MissingActionException] Action AppController::webroot() could not be found.
+#0 /Applications/XAMPP/xamppfiles/htdocs/beachchopp-novo/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#1 /Applications/XAMPP/xamppfiles/htdocs/beachchopp-novo/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(AppController), Object(CakeRequest), Object(CakeResponse))
+#2 /Applications/XAMPP/xamppfiles/htdocs/Beachchopp-novo/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-08-16 20:00:27 Error: [MissingActionException] Action AppController::webroot() could not be found.
+#0 /Applications/XAMPP/xamppfiles/htdocs/beachchopp-novo/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#1 /Applications/XAMPP/xamppfiles/htdocs/beachchopp-novo/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(AppController), Object(CakeRequest), Object(CakeResponse))
+#2 /Applications/XAMPP/xamppfiles/htdocs/Beachchopp-novo/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-08-16 20:00:29 Error: [MissingActionException] Action AppController::webroot() could not be found.
+#0 /Applications/XAMPP/xamppfiles/htdocs/beachchopp-novo/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#1 /Applications/XAMPP/xamppfiles/htdocs/beachchopp-novo/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(AppController), Object(CakeRequest), Object(CakeResponse))
+#2 /Applications/XAMPP/xamppfiles/htdocs/Beachchopp-novo/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-08-16 20:00:31 Error: [MissingActionException] Action AppController::webroot() could not be found.
+#0 /Applications/XAMPP/xamppfiles/htdocs/beachchopp-novo/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#1 /Applications/XAMPP/xamppfiles/htdocs/beachchopp-novo/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(AppController), Object(CakeRequest), Object(CakeResponse))
+#2 /Applications/XAMPP/xamppfiles/htdocs/Beachchopp-novo/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-08-16 20:01:11 Error: [MissingActionException] Action AppController::webroot() could not be found.
+#0 /Applications/XAMPP/xamppfiles/htdocs/beachchopp-novo/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#1 /Applications/XAMPP/xamppfiles/htdocs/beachchopp-novo/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(AppController), Object(CakeRequest), Object(CakeResponse))
+#2 /Applications/XAMPP/xamppfiles/htdocs/Beachchopp-novo/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-08-16 20:01:15 Error: [MissingActionException] Action AppController::webroot() could not be found.
+#0 /Applications/XAMPP/xamppfiles/htdocs/beachchopp-novo/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#1 /Applications/XAMPP/xamppfiles/htdocs/beachchopp-novo/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(AppController), Object(CakeRequest), Object(CakeResponse))
+#2 /Applications/XAMPP/xamppfiles/htdocs/Beachchopp-novo/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-08-16 20:02:20 Error: [MissingActionException] Action AppController::webroot() could not be found.
+#0 /Applications/XAMPP/xamppfiles/htdocs/beachchopp-novo/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#1 /Applications/XAMPP/xamppfiles/htdocs/beachchopp-novo/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(AppController), Object(CakeRequest), Object(CakeResponse))
+#2 /Applications/XAMPP/xamppfiles/htdocs/Beachchopp-novo/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-08-16 20:02:22 Error: [MissingActionException] Action AppController::webroot() could not be found.
+#0 /Applications/XAMPP/xamppfiles/htdocs/beachchopp-novo/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#1 /Applications/XAMPP/xamppfiles/htdocs/beachchopp-novo/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(AppController), Object(CakeRequest), Object(CakeResponse))
+#2 /Applications/XAMPP/xamppfiles/htdocs/Beachchopp-novo/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-08-16 20:04:12 Error: [MissingActionException] Action AppController::webroot() could not be found.
+#0 /Applications/XAMPP/xamppfiles/htdocs/beachchopp-novo/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#1 /Applications/XAMPP/xamppfiles/htdocs/beachchopp-novo/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(AppController), Object(CakeRequest), Object(CakeResponse))
+#2 /Applications/XAMPP/xamppfiles/htdocs/Beachchopp-novo/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-08-16 20:04:14 Error: [MissingActionException] Action AppController::webroot() could not be found.
+#0 /Applications/XAMPP/xamppfiles/htdocs/beachchopp-novo/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#1 /Applications/XAMPP/xamppfiles/htdocs/beachchopp-novo/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(AppController), Object(CakeRequest), Object(CakeResponse))
+#2 /Applications/XAMPP/xamppfiles/htdocs/Beachchopp-novo/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-08-16 20:04:24 Error: [MissingActionException] Action AppController::webroot() could not be found.
+#0 /Applications/XAMPP/xamppfiles/htdocs/beachchopp-novo/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#1 /Applications/XAMPP/xamppfiles/htdocs/beachchopp-novo/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(AppController), Object(CakeRequest), Object(CakeResponse))
+#2 /Applications/XAMPP/xamppfiles/htdocs/Beachchopp-novo/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-08-16 20:04:28 Error: [MissingActionException] Action AppController::webroot() could not be found.
+#0 /Applications/XAMPP/xamppfiles/htdocs/beachchopp-novo/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#1 /Applications/XAMPP/xamppfiles/htdocs/beachchopp-novo/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(AppController), Object(CakeRequest), Object(CakeResponse))
+#2 /Applications/XAMPP/xamppfiles/htdocs/Beachchopp-novo/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-08-16 20:05:34 Error: [MissingActionException] Action AppController::webroot() could not be found.
+#0 /Applications/XAMPP/xamppfiles/htdocs/beachchopp-novo/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#1 /Applications/XAMPP/xamppfiles/htdocs/beachchopp-novo/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(AppController), Object(CakeRequest), Object(CakeResponse))
+#2 /Applications/XAMPP/xamppfiles/htdocs/Beachchopp-novo/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-08-16 20:05:35 Error: [MissingActionException] Action AppController::webroot() could not be found.
+#0 /Applications/XAMPP/xamppfiles/htdocs/beachchopp-novo/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#1 /Applications/XAMPP/xamppfiles/htdocs/beachchopp-novo/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(AppController), Object(CakeRequest), Object(CakeResponse))
+#2 /Applications/XAMPP/xamppfiles/htdocs/Beachchopp-novo/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-08-16 20:05:45 Error: [MissingActionException] Action AppController::webroot() could not be found.
+#0 /Applications/XAMPP/xamppfiles/htdocs/beachchopp-novo/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#1 /Applications/XAMPP/xamppfiles/htdocs/beachchopp-novo/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(AppController), Object(CakeRequest), Object(CakeResponse))
+#2 /Applications/XAMPP/xamppfiles/htdocs/Beachchopp-novo/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-08-16 20:05:46 Error: [MissingActionException] Action AppController::webroot() could not be found.
+#0 /Applications/XAMPP/xamppfiles/htdocs/beachchopp-novo/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#1 /Applications/XAMPP/xamppfiles/htdocs/beachchopp-novo/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(AppController), Object(CakeRequest), Object(CakeResponse))
+#2 /Applications/XAMPP/xamppfiles/htdocs/Beachchopp-novo/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-08-16 20:05:54 Error: [MissingActionException] Action AppController::webroot() could not be found.
+#0 /Applications/XAMPP/xamppfiles/htdocs/beachchopp-novo/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#1 /Applications/XAMPP/xamppfiles/htdocs/beachchopp-novo/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(AppController), Object(CakeRequest), Object(CakeResponse))
+#2 /Applications/XAMPP/xamppfiles/htdocs/Beachchopp-novo/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-08-16 20:05:55 Error: [MissingActionException] Action AppController::webroot() could not be found.
+#0 /Applications/XAMPP/xamppfiles/htdocs/beachchopp-novo/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#1 /Applications/XAMPP/xamppfiles/htdocs/beachchopp-novo/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(AppController), Object(CakeRequest), Object(CakeResponse))
+#2 /Applications/XAMPP/xamppfiles/htdocs/Beachchopp-novo/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-08-16 20:06:49 Error: [MissingActionException] Action AppController::webroot() could not be found.
+#0 /Applications/XAMPP/xamppfiles/htdocs/beachchopp-novo/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#1 /Applications/XAMPP/xamppfiles/htdocs/beachchopp-novo/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(AppController), Object(CakeRequest), Object(CakeResponse))
+#2 /Applications/XAMPP/xamppfiles/htdocs/Beachchopp-novo/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-08-16 20:06:51 Error: [MissingActionException] Action AppController::webroot() could not be found.
+#0 /Applications/XAMPP/xamppfiles/htdocs/beachchopp-novo/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#1 /Applications/XAMPP/xamppfiles/htdocs/beachchopp-novo/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(AppController), Object(CakeRequest), Object(CakeResponse))
+#2 /Applications/XAMPP/xamppfiles/htdocs/Beachchopp-novo/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-08-16 20:07:21 Error: [MissingActionException] Action AppController::webroot() could not be found.
+#0 /Applications/XAMPP/xamppfiles/htdocs/beachchopp-novo/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#1 /Applications/XAMPP/xamppfiles/htdocs/beachchopp-novo/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(AppController), Object(CakeRequest), Object(CakeResponse))
+#2 /Applications/XAMPP/xamppfiles/htdocs/Beachchopp-novo/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-08-16 20:07:22 Error: [MissingActionException] Action AppController::webroot() could not be found.
+#0 /Applications/XAMPP/xamppfiles/htdocs/beachchopp-novo/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#1 /Applications/XAMPP/xamppfiles/htdocs/beachchopp-novo/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(AppController), Object(CakeRequest), Object(CakeResponse))
+#2 /Applications/XAMPP/xamppfiles/htdocs/Beachchopp-novo/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-08-16 20:07:38 Error: [MissingActionException] Action AppController::webroot() could not be found.
+#0 /Applications/XAMPP/xamppfiles/htdocs/beachchopp-novo/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#1 /Applications/XAMPP/xamppfiles/htdocs/beachchopp-novo/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(AppController), Object(CakeRequest), Object(CakeResponse))
+#2 /Applications/XAMPP/xamppfiles/htdocs/Beachchopp-novo/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-08-16 20:07:39 Error: [MissingActionException] Action AppController::webroot() could not be found.
+#0 /Applications/XAMPP/xamppfiles/htdocs/beachchopp-novo/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#1 /Applications/XAMPP/xamppfiles/htdocs/beachchopp-novo/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(AppController), Object(CakeRequest), Object(CakeResponse))
+#2 /Applications/XAMPP/xamppfiles/htdocs/Beachchopp-novo/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-08-16 20:07:42 Error: [MissingActionException] Action AppController::webroot() could not be found.
+#0 /Applications/XAMPP/xamppfiles/htdocs/beachchopp-novo/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#1 /Applications/XAMPP/xamppfiles/htdocs/beachchopp-novo/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(AppController), Object(CakeRequest), Object(CakeResponse))
+#2 /Applications/XAMPP/xamppfiles/htdocs/Beachchopp-novo/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-08-16 20:07:45 Error: [MissingActionException] Action AppController::webroot() could not be found.
+#0 /Applications/XAMPP/xamppfiles/htdocs/beachchopp-novo/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#1 /Applications/XAMPP/xamppfiles/htdocs/beachchopp-novo/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(AppController), Object(CakeRequest), Object(CakeResponse))
+#2 /Applications/XAMPP/xamppfiles/htdocs/Beachchopp-novo/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-08-16 20:08:21 Error: [MissingActionException] Action AppController::webroot() could not be found.
+#0 /Applications/XAMPP/xamppfiles/htdocs/beachchopp-novo/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#1 /Applications/XAMPP/xamppfiles/htdocs/beachchopp-novo/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(AppController), Object(CakeRequest), Object(CakeResponse))
+#2 /Applications/XAMPP/xamppfiles/htdocs/Beachchopp-novo/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-08-16 20:08:23 Error: [MissingActionException] Action AppController::webroot() could not be found.
+#0 /Applications/XAMPP/xamppfiles/htdocs/beachchopp-novo/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#1 /Applications/XAMPP/xamppfiles/htdocs/beachchopp-novo/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(AppController), Object(CakeRequest), Object(CakeResponse))
+#2 /Applications/XAMPP/xamppfiles/htdocs/Beachchopp-novo/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-08-16 20:08:50 Error: [MissingActionException] Action AppController::webroot() could not be found.
+#0 /Applications/XAMPP/xamppfiles/htdocs/beachchopp-novo/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#1 /Applications/XAMPP/xamppfiles/htdocs/beachchopp-novo/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(AppController), Object(CakeRequest), Object(CakeResponse))
+#2 /Applications/XAMPP/xamppfiles/htdocs/Beachchopp-novo/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-08-16 20:08:51 Error: [MissingControllerException] Controller class ClientesController could not be found.
+#0 /Applications/XAMPP/xamppfiles/htdocs/beachchopp-novo/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-08-16 20:08:52 Error: [MissingActionException] Action AppController::webroot() could not be found.
+#0 /Applications/XAMPP/xamppfiles/htdocs/beachchopp-novo/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#1 /Applications/XAMPP/xamppfiles/htdocs/beachchopp-novo/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(AppController), Object(CakeRequest), Object(CakeResponse))
+#2 /Applications/XAMPP/xamppfiles/htdocs/Beachchopp-novo/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-08-16 20:08:54 Error: [MissingActionException] Action AppController::webroot() could not be found.
+#0 /Applications/XAMPP/xamppfiles/htdocs/beachchopp-novo/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#1 /Applications/XAMPP/xamppfiles/htdocs/beachchopp-novo/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(AppController), Object(CakeRequest), Object(CakeResponse))
+#2 /Applications/XAMPP/xamppfiles/htdocs/Beachchopp-novo/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-08-16 20:08:56 Error: [MissingActionException] Action AppController::webroot() could not be found.
+#0 /Applications/XAMPP/xamppfiles/htdocs/beachchopp-novo/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#1 /Applications/XAMPP/xamppfiles/htdocs/beachchopp-novo/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(AppController), Object(CakeRequest), Object(CakeResponse))
+#2 /Applications/XAMPP/xamppfiles/htdocs/Beachchopp-novo/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-08-16 20:10:44 Error: [MissingActionException] Action AppController::webroot() could not be found.
+#0 /Applications/XAMPP/xamppfiles/htdocs/beachchopp-novo/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#1 /Applications/XAMPP/xamppfiles/htdocs/beachchopp-novo/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(AppController), Object(CakeRequest), Object(CakeResponse))
+#2 /Applications/XAMPP/xamppfiles/htdocs/Beachchopp-novo/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-08-16 20:10:45 Error: [MissingActionException] Action AppController::webroot() could not be found.
+#0 /Applications/XAMPP/xamppfiles/htdocs/beachchopp-novo/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#1 /Applications/XAMPP/xamppfiles/htdocs/beachchopp-novo/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(AppController), Object(CakeRequest), Object(CakeResponse))
+#2 /Applications/XAMPP/xamppfiles/htdocs/Beachchopp-novo/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-08-16 20:14:09 Error: [MissingActionException] Action AppController::webroot() could not be found.
+#0 /Applications/XAMPP/xamppfiles/htdocs/beachchopp-novo/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#1 /Applications/XAMPP/xamppfiles/htdocs/beachchopp-novo/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(AppController), Object(CakeRequest), Object(CakeResponse))
+#2 /Applications/XAMPP/xamppfiles/htdocs/Beachchopp-novo/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-08-16 20:14:15 Error: [MissingActionException] Action AppController::webroot() could not be found.
+#0 /Applications/XAMPP/xamppfiles/htdocs/beachchopp-novo/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#1 /Applications/XAMPP/xamppfiles/htdocs/beachchopp-novo/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(AppController), Object(CakeRequest), Object(CakeResponse))
+#2 /Applications/XAMPP/xamppfiles/htdocs/Beachchopp-novo/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-08-16 20:25:26 Error: [MissingActionException] Action AppController::webroot() could not be found.
+#0 /Applications/XAMPP/xamppfiles/htdocs/beachchopp-novo/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#1 /Applications/XAMPP/xamppfiles/htdocs/beachchopp-novo/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(AppController), Object(CakeRequest), Object(CakeResponse))
+#2 /Applications/XAMPP/xamppfiles/htdocs/Beachchopp-novo/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-08-16 20:25:30 Error: [MissingActionException] Action AppController::webroot() could not be found.
+#0 /Applications/XAMPP/xamppfiles/htdocs/beachchopp-novo/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#1 /Applications/XAMPP/xamppfiles/htdocs/beachchopp-novo/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(AppController), Object(CakeRequest), Object(CakeResponse))
+#2 /Applications/XAMPP/xamppfiles/htdocs/Beachchopp-novo/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-08-16 20:27:36 Error: [MissingActionException] Action AppController::webroot() could not be found.
+#0 /Applications/XAMPP/xamppfiles/htdocs/beachchopp-novo/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#1 /Applications/XAMPP/xamppfiles/htdocs/beachchopp-novo/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(AppController), Object(CakeRequest), Object(CakeResponse))
+#2 /Applications/XAMPP/xamppfiles/htdocs/Beachchopp-novo/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-08-16 20:27:48 Error: [MissingActionException] Action AppController::webroot() could not be found.
+#0 /Applications/XAMPP/xamppfiles/htdocs/beachchopp-novo/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#1 /Applications/XAMPP/xamppfiles/htdocs/beachchopp-novo/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(AppController), Object(CakeRequest), Object(CakeResponse))
+#2 /Applications/XAMPP/xamppfiles/htdocs/Beachchopp-novo/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-08-16 20:27:55 Error: [MissingActionException] Action AppController::webroot() could not be found.
+#0 /Applications/XAMPP/xamppfiles/htdocs/beachchopp-novo/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#1 /Applications/XAMPP/xamppfiles/htdocs/beachchopp-novo/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(AppController), Object(CakeRequest), Object(CakeResponse))
+#2 /Applications/XAMPP/xamppfiles/htdocs/Beachchopp-novo/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-08-16 20:31:16 Error: [MissingActionException] Action AppController::webroot() could not be found.
+#0 /Applications/XAMPP/xamppfiles/htdocs/beachchopp-novo/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#1 /Applications/XAMPP/xamppfiles/htdocs/beachchopp-novo/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(AppController), Object(CakeRequest), Object(CakeResponse))
+#2 /Applications/XAMPP/xamppfiles/htdocs/Beachchopp-novo/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-08-16 20:31:21 Error: [MissingTableException] Table bairros for model Bairro was not found in datasource default.
+#0 /Applications/XAMPP/xamppfiles/htdocs/beachchopp-novo/lib/Cake/Model/Model.php(3180): Model->setSource('bairros')
+#1 /Applications/XAMPP/xamppfiles/htdocs/beachchopp-novo/lib/Cake/Model/Datasource/DboSource.php(1068): Model->getDataSource()
+#2 /Applications/XAMPP/xamppfiles/htdocs/beachchopp-novo/lib/Cake/Model/Model.php(2631): DboSource->read(Object(Cidade), Array)
+#3 /Applications/XAMPP/xamppfiles/htdocs/beachchopp-novo/app/Controller/EnderecosController.php(59): Model->find('all')
+#4 [internal function]: EnderecosController->gerencia()
+#5 /Applications/XAMPP/xamppfiles/htdocs/beachchopp-novo/lib/Cake/Controller/Controller.php(485): ReflectionMethod->invokeArgs(Object(EnderecosController), Array)
+#6 /Applications/XAMPP/xamppfiles/htdocs/beachchopp-novo/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#7 /Applications/XAMPP/xamppfiles/htdocs/beachchopp-novo/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(EnderecosController), Object(CakeRequest), Object(CakeResponse))
+#8 /Applications/XAMPP/xamppfiles/htdocs/beachchopp-novo/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#9 {main}
+2012-08-16 20:31:22 Error: [MissingActionException] Action AppController::webroot() could not be found.
+#0 /Applications/XAMPP/xamppfiles/htdocs/beachchopp-novo/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#1 /Applications/XAMPP/xamppfiles/htdocs/beachchopp-novo/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(AppController), Object(CakeRequest), Object(CakeResponse))
+#2 /Applications/XAMPP/xamppfiles/htdocs/Beachchopp-novo/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-08-16 20:31:26 Error: [MissingActionException] Action AppController::webroot() could not be found.
+#0 /Applications/XAMPP/xamppfiles/htdocs/beachchopp-novo/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#1 /Applications/XAMPP/xamppfiles/htdocs/beachchopp-novo/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(AppController), Object(CakeRequest), Object(CakeResponse))
+#2 /Applications/XAMPP/xamppfiles/htdocs/Beachchopp-novo/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-08-16 20:31:44 Error: [MissingActionException] Action AppController::webroot() could not be found.
+#0 /Applications/XAMPP/xamppfiles/htdocs/beachchopp-novo/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#1 /Applications/XAMPP/xamppfiles/htdocs/beachchopp-novo/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(AppController), Object(CakeRequest), Object(CakeResponse))
+#2 /Applications/XAMPP/xamppfiles/htdocs/Beachchopp-novo/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-08-16 20:32:19 Error: [MissingActionException] Action AppController::webroot() could not be found.
+#0 /Applications/XAMPP/xamppfiles/htdocs/beachchopp-novo/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#1 /Applications/XAMPP/xamppfiles/htdocs/beachchopp-novo/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(AppController), Object(CakeRequest), Object(CakeResponse))
+#2 /Applications/XAMPP/xamppfiles/htdocs/Beachchopp-novo/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-08-16 20:32:26 Error: [MissingActionException] Action AppController::webroot() could not be found.
+#0 /Applications/XAMPP/xamppfiles/htdocs/beachchopp-novo/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#1 /Applications/XAMPP/xamppfiles/htdocs/beachchopp-novo/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(AppController), Object(CakeRequest), Object(CakeResponse))
+#2 /Applications/XAMPP/xamppfiles/htdocs/Beachchopp-novo/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-08-16 21:02:26 Error: [MissingActionException] Action AppController::webroot() could not be found.
+#0 /Applications/XAMPP/xamppfiles/htdocs/beachchopp-novo/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#1 /Applications/XAMPP/xamppfiles/htdocs/beachchopp-novo/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(AppController), Object(CakeRequest), Object(CakeResponse))
+#2 /Applications/XAMPP/xamppfiles/htdocs/Beachchopp-novo/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-08-16 21:02:28 Error: [MissingActionException] Action AppController::webroot() could not be found.
+#0 /Applications/XAMPP/xamppfiles/htdocs/beachchopp-novo/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#1 /Applications/XAMPP/xamppfiles/htdocs/beachchopp-novo/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(AppController), Object(CakeRequest), Object(CakeResponse))
+#2 /Applications/XAMPP/xamppfiles/htdocs/Beachchopp-novo/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-08-16 21:02:41 Error: [MissingActionException] Action AppController::webroot() could not be found.
+#0 /Applications/XAMPP/xamppfiles/htdocs/beachchopp-novo/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#1 /Applications/XAMPP/xamppfiles/htdocs/beachchopp-novo/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(AppController), Object(CakeRequest), Object(CakeResponse))
+#2 /Applications/XAMPP/xamppfiles/htdocs/Beachchopp-novo/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-08-16 21:03:10 Error: [MissingActionException] Action AppController::webroot() could not be found.
+#0 /Applications/XAMPP/xamppfiles/htdocs/beachchopp-novo/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#1 /Applications/XAMPP/xamppfiles/htdocs/beachchopp-novo/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(AppController), Object(CakeRequest), Object(CakeResponse))
+#2 /Applications/XAMPP/xamppfiles/htdocs/Beachchopp-novo/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-08-16 21:04:37 Error: [MissingActionException] Action AppController::webroot() could not be found.
+#0 /Applications/XAMPP/xamppfiles/htdocs/beachchopp-novo/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#1 /Applications/XAMPP/xamppfiles/htdocs/beachchopp-novo/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(AppController), Object(CakeRequest), Object(CakeResponse))
+#2 /Applications/XAMPP/xamppfiles/htdocs/Beachchopp-novo/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-08-16 21:08:13 Error: [MissingActionException] Action AppController::webroot() could not be found.
+#0 /Applications/XAMPP/xamppfiles/htdocs/beachchopp-novo/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#1 /Applications/XAMPP/xamppfiles/htdocs/beachchopp-novo/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(AppController), Object(CakeRequest), Object(CakeResponse))
+#2 /Applications/XAMPP/xamppfiles/htdocs/Beachchopp-novo/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-08-16 21:08:16 Error: [MissingActionException] Action AppController::webroot() could not be found.
+#0 /Applications/XAMPP/xamppfiles/htdocs/beachchopp-novo/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#1 /Applications/XAMPP/xamppfiles/htdocs/beachchopp-novo/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(AppController), Object(CakeRequest), Object(CakeResponse))
+#2 /Applications/XAMPP/xamppfiles/htdocs/Beachchopp-novo/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-08-16 21:09:38 Error: [MissingActionException] Action AppController::webroot() could not be found.
+#0 /Applications/XAMPP/xamppfiles/htdocs/beachchopp-novo/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#1 /Applications/XAMPP/xamppfiles/htdocs/beachchopp-novo/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(AppController), Object(CakeRequest), Object(CakeResponse))
+#2 /Applications/XAMPP/xamppfiles/htdocs/Beachchopp-novo/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-08-16 21:10:14 Error: [MissingActionException] Action AppController::webroot() could not be found.
+#0 /Applications/XAMPP/xamppfiles/htdocs/beachchopp-novo/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#1 /Applications/XAMPP/xamppfiles/htdocs/beachchopp-novo/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(AppController), Object(CakeRequest), Object(CakeResponse))
+#2 /Applications/XAMPP/xamppfiles/htdocs/Beachchopp-novo/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-08-16 21:13:12 Error: [MissingActionException] Action AppController::webroot() could not be found.
+#0 /Applications/XAMPP/xamppfiles/htdocs/beachchopp-novo/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#1 /Applications/XAMPP/xamppfiles/htdocs/beachchopp-novo/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(AppController), Object(CakeRequest), Object(CakeResponse))
+#2 /Applications/XAMPP/xamppfiles/htdocs/Beachchopp-novo/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-08-16 21:14:28 Error: [MissingActionException] Action AppController::webroot() could not be found.
+#0 /Applications/XAMPP/xamppfiles/htdocs/beachchopp-novo/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#1 /Applications/XAMPP/xamppfiles/htdocs/beachchopp-novo/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(AppController), Object(CakeRequest), Object(CakeResponse))
+#2 /Applications/XAMPP/xamppfiles/htdocs/Beachchopp-novo/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-08-16 21:14:40 Error: [MissingActionException] Action AppController::webroot() could not be found.
+#0 /Applications/XAMPP/xamppfiles/htdocs/beachchopp-novo/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#1 /Applications/XAMPP/xamppfiles/htdocs/beachchopp-novo/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(AppController), Object(CakeRequest), Object(CakeResponse))
+#2 /Applications/XAMPP/xamppfiles/htdocs/Beachchopp-novo/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-08-16 21:33:23 Error: [MissingActionException] Action AppController::webroot() could not be found.
+#0 /Applications/XAMPP/xamppfiles/htdocs/beachchopp-novo/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#1 /Applications/XAMPP/xamppfiles/htdocs/beachchopp-novo/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(AppController), Object(CakeRequest), Object(CakeResponse))
+#2 /Applications/XAMPP/xamppfiles/htdocs/Beachchopp-novo/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-08-16 21:34:16 Error: [MissingActionException] Action AppController::webroot() could not be found.
+#0 /Applications/XAMPP/xamppfiles/htdocs/beachchopp-novo/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#1 /Applications/XAMPP/xamppfiles/htdocs/beachchopp-novo/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(AppController), Object(CakeRequest), Object(CakeResponse))
+#2 /Applications/XAMPP/xamppfiles/htdocs/Beachchopp-novo/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-08-16 21:34:53 Error: [MissingActionException] Action AppController::webroot() could not be found.
+#0 /Applications/XAMPP/xamppfiles/htdocs/beachchopp-novo/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#1 /Applications/XAMPP/xamppfiles/htdocs/beachchopp-novo/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(AppController), Object(CakeRequest), Object(CakeResponse))
+#2 /Applications/XAMPP/xamppfiles/htdocs/Beachchopp-novo/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-08-16 21:34:57 Error: [MissingActionException] Action AppController::webroot() could not be found.
+#0 /Applications/XAMPP/xamppfiles/htdocs/beachchopp-novo/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#1 /Applications/XAMPP/xamppfiles/htdocs/beachchopp-novo/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(AppController), Object(CakeRequest), Object(CakeResponse))
+#2 /Applications/XAMPP/xamppfiles/htdocs/Beachchopp-novo/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-08-16 21:35:03 Error: [MissingActionException] Action AppController::webroot() could not be found.
+#0 /Applications/XAMPP/xamppfiles/htdocs/beachchopp-novo/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#1 /Applications/XAMPP/xamppfiles/htdocs/beachchopp-novo/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(AppController), Object(CakeRequest), Object(CakeResponse))
+#2 /Applications/XAMPP/xamppfiles/htdocs/Beachchopp-novo/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-08-16 21:37:01 Error: [MissingActionException] Action AppController::webroot() could not be found.
+#0 /Applications/XAMPP/xamppfiles/htdocs/beachchopp-novo/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#1 /Applications/XAMPP/xamppfiles/htdocs/beachchopp-novo/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(AppController), Object(CakeRequest), Object(CakeResponse))
+#2 /Applications/XAMPP/xamppfiles/htdocs/Beachchopp-novo/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-08-16 21:37:02 Error: [MissingActionException] Action AppController::webroot() could not be found.
+#0 /Applications/XAMPP/xamppfiles/htdocs/beachchopp-novo/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#1 /Applications/XAMPP/xamppfiles/htdocs/beachchopp-novo/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(AppController), Object(CakeRequest), Object(CakeResponse))
+#2 /Applications/XAMPP/xamppfiles/htdocs/Beachchopp-novo/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-08-16 21:37:08 Error: [MissingActionException] Action AppController::webroot() could not be found.
+#0 /Applications/XAMPP/xamppfiles/htdocs/beachchopp-novo/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#1 /Applications/XAMPP/xamppfiles/htdocs/beachchopp-novo/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(AppController), Object(CakeRequest), Object(CakeResponse))
+#2 /Applications/XAMPP/xamppfiles/htdocs/Beachchopp-novo/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-08-16 21:37:31 Error: [MissingActionException] Action AppController::webroot() could not be found.
+#0 /Applications/XAMPP/xamppfiles/htdocs/beachchopp-novo/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#1 /Applications/XAMPP/xamppfiles/htdocs/beachchopp-novo/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(AppController), Object(CakeRequest), Object(CakeResponse))
+#2 /Applications/XAMPP/xamppfiles/htdocs/Beachchopp-novo/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-08-16 21:37:54 Error: [MissingActionException] Action AppController::webroot() could not be found.
+#0 /Applications/XAMPP/xamppfiles/htdocs/beachchopp-novo/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#1 /Applications/XAMPP/xamppfiles/htdocs/beachchopp-novo/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(AppController), Object(CakeRequest), Object(CakeResponse))
+#2 /Applications/XAMPP/xamppfiles/htdocs/Beachchopp-novo/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-08-16 21:38:40 Error: [MissingActionException] Action AppController::webroot() could not be found.
+#0 /Applications/XAMPP/xamppfiles/htdocs/beachchopp-novo/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#1 /Applications/XAMPP/xamppfiles/htdocs/beachchopp-novo/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(AppController), Object(CakeRequest), Object(CakeResponse))
+#2 /Applications/XAMPP/xamppfiles/htdocs/Beachchopp-novo/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-08-16 21:38:51 Error: [MissingActionException] Action AppController::webroot() could not be found.
+#0 /Applications/XAMPP/xamppfiles/htdocs/beachchopp-novo/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#1 /Applications/XAMPP/xamppfiles/htdocs/beachchopp-novo/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(AppController), Object(CakeRequest), Object(CakeResponse))
+#2 /Applications/XAMPP/xamppfiles/htdocs/Beachchopp-novo/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-08-16 21:39:43 Error: [MissingActionException] Action AppController::webroot() could not be found.
+#0 /Applications/XAMPP/xamppfiles/htdocs/beachchopp-novo/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#1 /Applications/XAMPP/xamppfiles/htdocs/beachchopp-novo/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(AppController), Object(CakeRequest), Object(CakeResponse))
+#2 /Applications/XAMPP/xamppfiles/htdocs/Beachchopp-novo/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-08-16 21:40:12 Error: [MissingActionException] Action AppController::webroot() could not be found.
+#0 /Applications/XAMPP/xamppfiles/htdocs/beachchopp-novo/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#1 /Applications/XAMPP/xamppfiles/htdocs/beachchopp-novo/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(AppController), Object(CakeRequest), Object(CakeResponse))
+#2 /Applications/XAMPP/xamppfiles/htdocs/Beachchopp-novo/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-08-16 21:40:33 Error: [MissingActionException] Action AppController::webroot() could not be found.
+#0 /Applications/XAMPP/xamppfiles/htdocs/beachchopp-novo/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#1 /Applications/XAMPP/xamppfiles/htdocs/beachchopp-novo/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(AppController), Object(CakeRequest), Object(CakeResponse))
+#2 /Applications/XAMPP/xamppfiles/htdocs/Beachchopp-novo/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-08-16 21:40:42 Error: [MissingActionException] Action AppController::webroot() could not be found.
+#0 /Applications/XAMPP/xamppfiles/htdocs/beachchopp-novo/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#1 /Applications/XAMPP/xamppfiles/htdocs/beachchopp-novo/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(AppController), Object(CakeRequest), Object(CakeResponse))
+#2 /Applications/XAMPP/xamppfiles/htdocs/Beachchopp-novo/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-08-16 21:41:22 Error: [MissingActionException] Action AppController::webroot() could not be found.
+#0 /Applications/XAMPP/xamppfiles/htdocs/beachchopp-novo/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#1 /Applications/XAMPP/xamppfiles/htdocs/beachchopp-novo/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(AppController), Object(CakeRequest), Object(CakeResponse))
+#2 /Applications/XAMPP/xamppfiles/htdocs/Beachchopp-novo/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-08-16 21:41:25 Error: [MissingActionException] Action AppController::webroot() could not be found.
+#0 /Applications/XAMPP/xamppfiles/htdocs/beachchopp-novo/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#1 /Applications/XAMPP/xamppfiles/htdocs/beachchopp-novo/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(AppController), Object(CakeRequest), Object(CakeResponse))
+#2 /Applications/XAMPP/xamppfiles/htdocs/Beachchopp-novo/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-08-16 21:42:27 Error: [MissingActionException] Action AppController::webroot() could not be found.
+#0 /Applications/XAMPP/xamppfiles/htdocs/beachchopp-novo/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#1 /Applications/XAMPP/xamppfiles/htdocs/beachchopp-novo/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(AppController), Object(CakeRequest), Object(CakeResponse))
+#2 /Applications/XAMPP/xamppfiles/htdocs/Beachchopp-novo/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-08-16 21:43:02 Error: [MissingActionException] Action AppController::webroot() could not be found.
+#0 /Applications/XAMPP/xamppfiles/htdocs/beachchopp-novo/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#1 /Applications/XAMPP/xamppfiles/htdocs/beachchopp-novo/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(AppController), Object(CakeRequest), Object(CakeResponse))
+#2 /Applications/XAMPP/xamppfiles/htdocs/Beachchopp-novo/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-08-16 21:43:20 Error: [MissingActionException] Action AppController::webroot() could not be found.
+#0 /Applications/XAMPP/xamppfiles/htdocs/beachchopp-novo/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#1 /Applications/XAMPP/xamppfiles/htdocs/beachchopp-novo/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(AppController), Object(CakeRequest), Object(CakeResponse))
+#2 /Applications/XAMPP/xamppfiles/htdocs/Beachchopp-novo/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-08-16 21:43:49 Error: [MissingActionException] Action AppController::webroot() could not be found.
+#0 /Applications/XAMPP/xamppfiles/htdocs/beachchopp-novo/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#1 /Applications/XAMPP/xamppfiles/htdocs/beachchopp-novo/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(AppController), Object(CakeRequest), Object(CakeResponse))
+#2 /Applications/XAMPP/xamppfiles/htdocs/Beachchopp-novo/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-08-16 21:44:15 Error: [MissingActionException] Action AppController::webroot() could not be found.
+#0 /Applications/XAMPP/xamppfiles/htdocs/beachchopp-novo/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#1 /Applications/XAMPP/xamppfiles/htdocs/beachchopp-novo/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(AppController), Object(CakeRequest), Object(CakeResponse))
+#2 /Applications/XAMPP/xamppfiles/htdocs/Beachchopp-novo/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-08-16 21:44:30 Error: [MissingActionException] Action AppController::webroot() could not be found.
+#0 /Applications/XAMPP/xamppfiles/htdocs/beachchopp-novo/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#1 /Applications/XAMPP/xamppfiles/htdocs/beachchopp-novo/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(AppController), Object(CakeRequest), Object(CakeResponse))
+#2 /Applications/XAMPP/xamppfiles/htdocs/Beachchopp-novo/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-08-16 21:44:40 Error: [MissingActionException] Action AppController::webroot() could not be found.
+#0 /Applications/XAMPP/xamppfiles/htdocs/beachchopp-novo/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#1 /Applications/XAMPP/xamppfiles/htdocs/beachchopp-novo/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(AppController), Object(CakeRequest), Object(CakeResponse))
+#2 /Applications/XAMPP/xamppfiles/htdocs/Beachchopp-novo/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-08-16 21:45:16 Error: [MissingActionException] Action AppController::webroot() could not be found.
+#0 /Applications/XAMPP/xamppfiles/htdocs/beachchopp-novo/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#1 /Applications/XAMPP/xamppfiles/htdocs/beachchopp-novo/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(AppController), Object(CakeRequest), Object(CakeResponse))
+#2 /Applications/XAMPP/xamppfiles/htdocs/Beachchopp-novo/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-08-16 21:47:41 Error: [MissingActionException] Action AppController::webroot() could not be found.
+#0 /Applications/XAMPP/xamppfiles/htdocs/beachchopp-novo/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#1 /Applications/XAMPP/xamppfiles/htdocs/beachchopp-novo/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(AppController), Object(CakeRequest), Object(CakeResponse))
+#2 /Applications/XAMPP/xamppfiles/htdocs/Beachchopp-novo/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-08-16 21:47:48 Error: [MissingActionException] Action AppController::webroot() could not be found.
+#0 /Applications/XAMPP/xamppfiles/htdocs/beachchopp-novo/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#1 /Applications/XAMPP/xamppfiles/htdocs/beachchopp-novo/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(AppController), Object(CakeRequest), Object(CakeResponse))
+#2 /Applications/XAMPP/xamppfiles/htdocs/Beachchopp-novo/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-08-16 21:48:00 Error: [MissingActionException] Action AppController::webroot() could not be found.
+#0 /Applications/XAMPP/xamppfiles/htdocs/beachchopp-novo/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#1 /Applications/XAMPP/xamppfiles/htdocs/beachchopp-novo/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(AppController), Object(CakeRequest), Object(CakeResponse))
+#2 /Applications/XAMPP/xamppfiles/htdocs/Beachchopp-novo/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-08-16 21:48:04 Error: [MissingActionException] Action AppController::webroot() could not be found.
+#0 /Applications/XAMPP/xamppfiles/htdocs/beachchopp-novo/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#1 /Applications/XAMPP/xamppfiles/htdocs/beachchopp-novo/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(AppController), Object(CakeRequest), Object(CakeResponse))
+#2 /Applications/XAMPP/xamppfiles/htdocs/Beachchopp-novo/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-08-16 21:48:42 Error: [MissingActionException] Action AppController::webroot() could not be found.
+#0 /Applications/XAMPP/xamppfiles/htdocs/beachchopp-novo/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#1 /Applications/XAMPP/xamppfiles/htdocs/beachchopp-novo/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(AppController), Object(CakeRequest), Object(CakeResponse))
+#2 /Applications/XAMPP/xamppfiles/htdocs/Beachchopp-novo/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-08-16 21:49:04 Error: [MissingActionException] Action AppController::webroot() could not be found.
+#0 /Applications/XAMPP/xamppfiles/htdocs/beachchopp-novo/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#1 /Applications/XAMPP/xamppfiles/htdocs/beachchopp-novo/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(AppController), Object(CakeRequest), Object(CakeResponse))
+#2 /Applications/XAMPP/xamppfiles/htdocs/Beachchopp-novo/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-08-16 21:49:10 Error: [MissingActionException] Action AppController::webroot() could not be found.
+#0 /Applications/XAMPP/xamppfiles/htdocs/beachchopp-novo/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#1 /Applications/XAMPP/xamppfiles/htdocs/beachchopp-novo/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(AppController), Object(CakeRequest), Object(CakeResponse))
+#2 /Applications/XAMPP/xamppfiles/htdocs/Beachchopp-novo/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-08-16 21:49:13 Error: [MissingActionException] Action AppController::webroot() could not be found.
+#0 /Applications/XAMPP/xamppfiles/htdocs/beachchopp-novo/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#1 /Applications/XAMPP/xamppfiles/htdocs/beachchopp-novo/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(AppController), Object(CakeRequest), Object(CakeResponse))
+#2 /Applications/XAMPP/xamppfiles/htdocs/Beachchopp-novo/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-08-16 21:50:03 Error: [MissingActionException] Action AppController::webroot() could not be found.
+#0 /Applications/XAMPP/xamppfiles/htdocs/beachchopp-novo/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#1 /Applications/XAMPP/xamppfiles/htdocs/beachchopp-novo/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(AppController), Object(CakeRequest), Object(CakeResponse))
+#2 /Applications/XAMPP/xamppfiles/htdocs/Beachchopp-novo/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-08-16 21:54:37 Error: [MissingActionException] Action AppController::webroot() could not be found.
+#0 /Applications/XAMPP/xamppfiles/htdocs/beachchopp-novo/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#1 /Applications/XAMPP/xamppfiles/htdocs/beachchopp-novo/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(AppController), Object(CakeRequest), Object(CakeResponse))
+#2 /Applications/XAMPP/xamppfiles/htdocs/Beachchopp-novo/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-08-16 21:55:18 Error: [MissingActionException] Action AppController::webroot() could not be found.
+#0 /Applications/XAMPP/xamppfiles/htdocs/beachchopp-novo/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#1 /Applications/XAMPP/xamppfiles/htdocs/beachchopp-novo/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(AppController), Object(CakeRequest), Object(CakeResponse))
+#2 /Applications/XAMPP/xamppfiles/htdocs/Beachchopp-novo/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-08-16 21:55:34 Error: [MissingActionException] Action AppController::webroot() could not be found.
+#0 /Applications/XAMPP/xamppfiles/htdocs/beachchopp-novo/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#1 /Applications/XAMPP/xamppfiles/htdocs/beachchopp-novo/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(AppController), Object(CakeRequest), Object(CakeResponse))
+#2 /Applications/XAMPP/xamppfiles/htdocs/Beachchopp-novo/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-08-16 21:55:45 Error: [MissingActionException] Action AppController::webroot() could not be found.
+#0 /Applications/XAMPP/xamppfiles/htdocs/beachchopp-novo/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#1 /Applications/XAMPP/xamppfiles/htdocs/beachchopp-novo/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(AppController), Object(CakeRequest), Object(CakeResponse))
+#2 /Applications/XAMPP/xamppfiles/htdocs/Beachchopp-novo/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-08-16 21:57:06 Error: [MissingActionException] Action AppController::webroot() could not be found.
+#0 /Applications/XAMPP/xamppfiles/htdocs/beachchopp-novo/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#1 /Applications/XAMPP/xamppfiles/htdocs/beachchopp-novo/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(AppController), Object(CakeRequest), Object(CakeResponse))
+#2 /Applications/XAMPP/xamppfiles/htdocs/Beachchopp-novo/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-08-16 22:00:11 Error: [MissingActionException] Action AppController::webroot() could not be found.
+#0 /Applications/XAMPP/xamppfiles/htdocs/beachchopp-novo/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#1 /Applications/XAMPP/xamppfiles/htdocs/beachchopp-novo/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(AppController), Object(CakeRequest), Object(CakeResponse))
+#2 /Applications/XAMPP/xamppfiles/htdocs/Beachchopp-novo/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-08-16 22:00:26 Error: [MissingActionException] Action AppController::webroot() could not be found.
+#0 /Applications/XAMPP/xamppfiles/htdocs/beachchopp-novo/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#1 /Applications/XAMPP/xamppfiles/htdocs/beachchopp-novo/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(AppController), Object(CakeRequest), Object(CakeResponse))
+#2 /Applications/XAMPP/xamppfiles/htdocs/Beachchopp-novo/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-08-16 22:00:53 Error: [MissingActionException] Action AppController::webroot() could not be found.
+#0 /Applications/XAMPP/xamppfiles/htdocs/beachchopp-novo/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#1 /Applications/XAMPP/xamppfiles/htdocs/beachchopp-novo/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(AppController), Object(CakeRequest), Object(CakeResponse))
+#2 /Applications/XAMPP/xamppfiles/htdocs/Beachchopp-novo/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-08-16 22:02:26 Error: [MissingActionException] Action AppController::webroot() could not be found.
+#0 /Applications/XAMPP/xamppfiles/htdocs/beachchopp-novo/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#1 /Applications/XAMPP/xamppfiles/htdocs/beachchopp-novo/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(AppController), Object(CakeRequest), Object(CakeResponse))
+#2 /Applications/XAMPP/xamppfiles/htdocs/Beachchopp-novo/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-08-16 22:03:01 Error: [MissingActionException] Action AppController::webroot() could not be found.
+#0 /Applications/XAMPP/xamppfiles/htdocs/beachchopp-novo/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#1 /Applications/XAMPP/xamppfiles/htdocs/beachchopp-novo/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(AppController), Object(CakeRequest), Object(CakeResponse))
+#2 /Applications/XAMPP/xamppfiles/htdocs/Beachchopp-novo/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-08-16 22:03:33 Error: [MissingActionException] Action AppController::webroot() could not be found.
+#0 /Applications/XAMPP/xamppfiles/htdocs/beachchopp-novo/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#1 /Applications/XAMPP/xamppfiles/htdocs/beachchopp-novo/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(AppController), Object(CakeRequest), Object(CakeResponse))
+#2 /Applications/XAMPP/xamppfiles/htdocs/Beachchopp-novo/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-08-16 22:04:19 Error: [MissingActionException] Action AppController::webroot() could not be found.
+#0 /Applications/XAMPP/xamppfiles/htdocs/beachchopp-novo/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#1 /Applications/XAMPP/xamppfiles/htdocs/beachchopp-novo/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(AppController), Object(CakeRequest), Object(CakeResponse))
+#2 /Applications/XAMPP/xamppfiles/htdocs/Beachchopp-novo/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-08-16 22:08:23 Error: [MissingActionException] Action AppController::webroot() could not be found.
+#0 /Applications/XAMPP/xamppfiles/htdocs/beachchopp-novo/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#1 /Applications/XAMPP/xamppfiles/htdocs/beachchopp-novo/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(AppController), Object(CakeRequest), Object(CakeResponse))
+#2 /Applications/XAMPP/xamppfiles/htdocs/Beachchopp-novo/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-08-16 22:13:23 Error: [MissingActionException] Action AppController::webroot() could not be found.
+#0 /Applications/XAMPP/xamppfiles/htdocs/beachchopp-novo/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#1 /Applications/XAMPP/xamppfiles/htdocs/beachchopp-novo/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(AppController), Object(CakeRequest), Object(CakeResponse))
+#2 /Applications/XAMPP/xamppfiles/htdocs/Beachchopp-novo/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-08-16 22:13:27 Error: [MissingActionException] Action AppController::webroot() could not be found.
+#0 /Applications/XAMPP/xamppfiles/htdocs/beachchopp-novo/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#1 /Applications/XAMPP/xamppfiles/htdocs/beachchopp-novo/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(AppController), Object(CakeRequest), Object(CakeResponse))
+#2 /Applications/XAMPP/xamppfiles/htdocs/Beachchopp-novo/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-08-16 22:14:25 Error: [MissingActionException] Action AppController::webroot() could not be found.
+#0 /Applications/XAMPP/xamppfiles/htdocs/beachchopp-novo/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#1 /Applications/XAMPP/xamppfiles/htdocs/beachchopp-novo/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(AppController), Object(CakeRequest), Object(CakeResponse))
+#2 /Applications/XAMPP/xamppfiles/htdocs/Beachchopp-novo/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-08-16 22:15:14 Error: [MissingActionException] Action AppController::webroot() could not be found.
+#0 /Applications/XAMPP/xamppfiles/htdocs/beachchopp-novo/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#1 /Applications/XAMPP/xamppfiles/htdocs/beachchopp-novo/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(AppController), Object(CakeRequest), Object(CakeResponse))
+#2 /Applications/XAMPP/xamppfiles/htdocs/Beachchopp-novo/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-08-16 22:15:58 Error: [MissingActionException] Action AppController::webroot() could not be found.
+#0 /Applications/XAMPP/xamppfiles/htdocs/beachchopp-novo/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#1 /Applications/XAMPP/xamppfiles/htdocs/beachchopp-novo/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(AppController), Object(CakeRequest), Object(CakeResponse))
+#2 /Applications/XAMPP/xamppfiles/htdocs/Beachchopp-novo/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-08-16 22:16:24 Error: [MissingActionException] Action AppController::webroot() could not be found.
+#0 /Applications/XAMPP/xamppfiles/htdocs/beachchopp-novo/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#1 /Applications/XAMPP/xamppfiles/htdocs/beachchopp-novo/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(AppController), Object(CakeRequest), Object(CakeResponse))
+#2 /Applications/XAMPP/xamppfiles/htdocs/Beachchopp-novo/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-08-16 22:16:30 Error: [MissingActionException] Action AppController::webroot() could not be found.
+#0 /Applications/XAMPP/xamppfiles/htdocs/beachchopp-novo/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#1 /Applications/XAMPP/xamppfiles/htdocs/beachchopp-novo/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(AppController), Object(CakeRequest), Object(CakeResponse))
+#2 /Applications/XAMPP/xamppfiles/htdocs/Beachchopp-novo/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-08-16 22:16:48 Error: [MissingActionException] Action AppController::webroot() could not be found.
+#0 /Applications/XAMPP/xamppfiles/htdocs/beachchopp-novo/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#1 /Applications/XAMPP/xamppfiles/htdocs/beachchopp-novo/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(AppController), Object(CakeRequest), Object(CakeResponse))
+#2 /Applications/XAMPP/xamppfiles/htdocs/Beachchopp-novo/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-08-16 22:17:42 Error: [MissingActionException] Action AppController::webroot() could not be found.
+#0 /Applications/XAMPP/xamppfiles/htdocs/beachchopp-novo/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#1 /Applications/XAMPP/xamppfiles/htdocs/beachchopp-novo/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(AppController), Object(CakeRequest), Object(CakeResponse))
+#2 /Applications/XAMPP/xamppfiles/htdocs/Beachchopp-novo/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-08-16 22:19:01 Error: [MissingActionException] Action AppController::webroot() could not be found.
+#0 /Applications/XAMPP/xamppfiles/htdocs/beachchopp-novo/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#1 /Applications/XAMPP/xamppfiles/htdocs/beachchopp-novo/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(AppController), Object(CakeRequest), Object(CakeResponse))
+#2 /Applications/XAMPP/xamppfiles/htdocs/Beachchopp-novo/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-08-16 22:19:37 Error: [MissingActionException] Action AppController::webroot() could not be found.
+#0 /Applications/XAMPP/xamppfiles/htdocs/beachchopp-novo/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#1 /Applications/XAMPP/xamppfiles/htdocs/beachchopp-novo/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(AppController), Object(CakeRequest), Object(CakeResponse))
+#2 /Applications/XAMPP/xamppfiles/htdocs/Beachchopp-novo/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-08-16 22:19:46 Error: [MissingActionException] Action AppController::webroot() could not be found.
+#0 /Applications/XAMPP/xamppfiles/htdocs/beachchopp-novo/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#1 /Applications/XAMPP/xamppfiles/htdocs/beachchopp-novo/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(AppController), Object(CakeRequest), Object(CakeResponse))
+#2 /Applications/XAMPP/xamppfiles/htdocs/Beachchopp-novo/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-08-16 22:20:17 Error: [MissingActionException] Action AppController::webroot() could not be found.
+#0 /Applications/XAMPP/xamppfiles/htdocs/beachchopp-novo/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#1 /Applications/XAMPP/xamppfiles/htdocs/beachchopp-novo/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(AppController), Object(CakeRequest), Object(CakeResponse))
+#2 /Applications/XAMPP/xamppfiles/htdocs/Beachchopp-novo/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-08-16 22:21:38 Error: [MissingActionException] Action AppController::webroot() could not be found.
+#0 /Applications/XAMPP/xamppfiles/htdocs/beachchopp-novo/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#1 /Applications/XAMPP/xamppfiles/htdocs/beachchopp-novo/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(AppController), Object(CakeRequest), Object(CakeResponse))
+#2 /Applications/XAMPP/xamppfiles/htdocs/Beachchopp-novo/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-08-16 22:22:02 Error: [MissingActionException] Action AppController::webroot() could not be found.
+#0 /Applications/XAMPP/xamppfiles/htdocs/beachchopp-novo/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#1 /Applications/XAMPP/xamppfiles/htdocs/beachchopp-novo/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(AppController), Object(CakeRequest), Object(CakeResponse))
+#2 /Applications/XAMPP/xamppfiles/htdocs/Beachchopp-novo/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-08-16 22:22:38 Error: [MissingActionException] Action AppController::webroot() could not be found.
+#0 /Applications/XAMPP/xamppfiles/htdocs/beachchopp-novo/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#1 /Applications/XAMPP/xamppfiles/htdocs/beachchopp-novo/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(AppController), Object(CakeRequest), Object(CakeResponse))
+#2 /Applications/XAMPP/xamppfiles/htdocs/Beachchopp-novo/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-08-16 22:25:25 Error: [MissingActionException] Action AppController::webroot() could not be found.
+#0 /Applications/XAMPP/xamppfiles/htdocs/beachchopp-novo/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#1 /Applications/XAMPP/xamppfiles/htdocs/beachchopp-novo/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(AppController), Object(CakeRequest), Object(CakeResponse))
+#2 /Applications/XAMPP/xamppfiles/htdocs/Beachchopp-novo/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-08-16 22:26:06 Error: [MissingActionException] Action AppController::webroot() could not be found.
+#0 /Applications/XAMPP/xamppfiles/htdocs/beachchopp-novo/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#1 /Applications/XAMPP/xamppfiles/htdocs/beachchopp-novo/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(AppController), Object(CakeRequest), Object(CakeResponse))
+#2 /Applications/XAMPP/xamppfiles/htdocs/Beachchopp-novo/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-08-16 22:26:08 Error: [MissingActionException] Action AppController::webroot() could not be found.
+#0 /Applications/XAMPP/xamppfiles/htdocs/beachchopp-novo/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#1 /Applications/XAMPP/xamppfiles/htdocs/beachchopp-novo/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(AppController), Object(CakeRequest), Object(CakeResponse))
+#2 /Applications/XAMPP/xamppfiles/htdocs/Beachchopp-novo/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-08-16 22:26:10 Error: [MissingActionException] Action AppController::webroot() could not be found.
+#0 /Applications/XAMPP/xamppfiles/htdocs/beachchopp-novo/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#1 /Applications/XAMPP/xamppfiles/htdocs/beachchopp-novo/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(AppController), Object(CakeRequest), Object(CakeResponse))
+#2 /Applications/XAMPP/xamppfiles/htdocs/Beachchopp-novo/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-08-16 22:26:12 Error: [MissingActionException] Action AppController::webroot() could not be found.
+#0 /Applications/XAMPP/xamppfiles/htdocs/beachchopp-novo/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#1 /Applications/XAMPP/xamppfiles/htdocs/beachchopp-novo/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(AppController), Object(CakeRequest), Object(CakeResponse))
+#2 /Applications/XAMPP/xamppfiles/htdocs/Beachchopp-novo/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-08-16 22:26:17 Error: [MissingActionException] Action AppController::webroot() could not be found.
+#0 /Applications/XAMPP/xamppfiles/htdocs/beachchopp-novo/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#1 /Applications/XAMPP/xamppfiles/htdocs/beachchopp-novo/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(AppController), Object(CakeRequest), Object(CakeResponse))
+#2 /Applications/XAMPP/xamppfiles/htdocs/Beachchopp-novo/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}

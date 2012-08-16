@@ -1,30 +1,28 @@
 <?php echo $this->Html->script('system-functions/add-addresses'); ?>
 <?php if(isset($success)): ?>
 				<script type = "text/javascript">
-					$(document).ready(function() {
-					if($('.alert.alert-success').html() == null){
-						$('.adicionaproduto').before('<div class = "alert alert-success">');
-					}
-					$('.alert.alert-success').html('<button class="close" data-dismiss="alert">×</button>');
-					$('.alert.alert-success .close').after('<strong>Sucesso!</strong> O endereço foi corretamente cadastrado no sistema.');
-					$('.alert.alert-success').fadeIn('slow');
-					$('#EnderecoDes').val('');
+					$(document).ready(function() {	
+						$('.alert-success').toggleAlert();
 					});
 				</script>
 <?php elseif(isset($error)): ?>
 				<script type = "text/javascript">
-					$(document).ready(function() {
-					if($('.alert.alert-error').html() == null){
-						$('.adicionaproduto').before('<div class = "alert alert-error">');
-					}
-					$('.alert.alert-error').html('<button class="close" data-dismiss="alert">×</button>');
-					$('.alert.alert-error .close').after('<strong>Erro!</strong> Por favor, revise novamente os campos destacados em vermelho.');
-					$('.alert.alert-error').fadeIn('slow');
-					return false;
+					$(document).ready(function() {	
+						$('.alert-error').toggleAlert();
 					});
 				</script>
 <?php endif; ?>
-<div class = "adminwrap">
+<script type = "text/javascript">
+	$(document).ready(function() {	
+		//Chama a função acima quando a página carregar.
+		$('#EnderecoType').control();
+		
+		//Chama a função acima quando mudar o select.
+		$('#EnderecoType').change(function(){
+			$(this).control();
+ 		});
+ 	});
+</script>
 	<div class="alert alert-success">
     <button type="button" class="close" data-dismiss="alert">×</button>
     <strong>Sucesso!</strong> O produto foi corretamente cadastrado no sistema.
@@ -33,17 +31,11 @@
     <button type="button" class="close" data-dismiss="alert">×</button>
     <strong>Erro!</strong> Por favor, revise novamente os campos destacados em vermelho.
   </div>
-  <div class = "gerenciaendereco">
-	<div class = "topo">
-		<div class = "topo-wrap">
-			<p class = "titulo">
-				Cadastro de Endereço
-			</p>
+  <div class = "add-address">
+		<h2>Cadastro de Endereço</h2>
 			<div class = "botao-voltar">
-				<?php echo $this->Html->link('voltar', array('controller' => 'users', 'action' => 'painel')); ?>
+<?php 	echo $this->Html->link('voltar', array('controller' => 'users', 'action' => 'painel')); ?>
 			</div>
-		</div>
-	</div>
 	<div class = "conteudo">
 <?php	echo $this->Form->create('Endereco', array('action' => 'adiciona')); ?>
 				<div class = "legenda">
@@ -103,9 +95,8 @@
 <?php 	echo $this->Form->input('Enviar', array(
                         'type' => 'submit',
 												'label' => false,
-                        'class' => 'enviar'
+                        'class' => 'btn primary'
                   )); ?>
 <?php echo $this->Form->end(); ?>
-  </div>          
-</div>
-</div>
+</div>   
+</div>       
