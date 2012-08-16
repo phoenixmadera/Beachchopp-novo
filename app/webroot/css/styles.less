@@ -1,0 +1,25 @@
+//Variables
+
+//Functions
+.centralize () {
+  margin: 0 auto; }
+
+.setSize(@new_width: auto, @new_height: auto) { width: @new_width;
+																							 	height: @new_height; }
+
+.setDisplay(@display: none){ display: @display;	}
+
+.emptyMargin() { margin: 0px; 
+							 padding: 0px; }
+
+//Page elements
+.login-form {	.setSize(259px);
+							.centralize;
+							.well {	padding-top: 5px;
+											padding-bottom: 5px; }
+							.btn {	float: right;	}
+}
+
+.row-fluid {	margin-top: 55px;	}
+
+.message { display: inline;	}
