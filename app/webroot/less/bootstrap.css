@@ -4269,12 +4269,36 @@ optgroup label {
   -moz-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.05);
   box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.05);
 }
+.manage-address h2 {
+  float: left;
+}
+.manage-address .content {
+  margin-top: 45px;
+}
 .manage-address .btn-group {
   float: right;
 }
+.manage-address .country {
+  padding-top: 14px;
+  background-color: ;
+}
 .manage-address .state {
-  padding-left: 20px;
+  padding-left: 30px;
+  padding-top: 14px;
+}
+.manage-address .state img {
+  margin-top: -19px;
+  margin-right: 3px;
 }
 .manage-address .city {
-  padding-left: 40px;
+  padding-left: 65px;
+  padding-top: 14px;
+}
+.manage-address .city img {
+  margin-top: -19px;
+  margin-right: 3px;
+}
+.manage-address .back-btn {
+  float: right;
+  margin-top: 13px;
 }

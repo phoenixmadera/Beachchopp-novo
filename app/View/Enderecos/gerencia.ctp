@@ -10,7 +10,7 @@
       <table class = "table table-condensed" style = "text-align: center;">
    			<tbody>
 <?php 		foreach($countries as $country): ?>
-						<tr>
+						<tr style = "background-color: #f0eded;">
 							<td class = "country">
 <?php 					echo $country['Pais']['des']; ?>
 							</td>
@@ -30,10 +30,9 @@
 						</tr>
 <?php 			foreach($states as $state): ?>
 <?php 				if($state['Estado']['id_countries'] == $country['Pais']['id']){ ?>
-								<tr>
+								<tr style = "background-color: #f2f1f1;">
 									<td class = "state">
-<?php 							//echo $this->Html->image('icon_arrow.png')."  ".$state['Estado']['des']; ?>
-<?php 							echo $state['Estado']['des']; ?>
+<?php 							echo $this->Html->image('table-indent.png')."  ".$state['Estado']['des']; ?>
 									</td>
 									<td>
 									<div class="btn-group">
@@ -51,10 +50,9 @@
 							</tr>
 <?php						foreach($cities as $city): ?>
 <?php 					if($city['Cidade']['id_states'] == $state['Estado']['id']){ ?>
-									<tr>
+									<tr style = "background-color: #f7f4f4;">
 										<td class = "city">
-<?php 								//echo $this->Html->image('icon_arrow.png')."  ".$city['Cidade']['des']; ?>
-<?php 								echo $city['Cidade']['des']; ?>
+<?php 								echo $this->Html->image('table-indent.png')."  ".$city['Cidade']['des']; ?>
 										</td>
 										<td>
 										<div class="btn-group">
