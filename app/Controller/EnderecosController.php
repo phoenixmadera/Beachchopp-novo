@@ -5,6 +5,7 @@ class EnderecosController extends AppController {
 		var $uses = array('Endereco', 'Pais', 'Estado', 'Cidade');
 		
 		public function adiciona(){
+				//$this->Session->delete('success');
 			//População dos campos SELECT do formulário de endereço:
 				//Pais
 					$countries = $this->Pais->find('list', array('fields' => 'Pais.des'));
@@ -16,14 +17,18 @@ class EnderecosController extends AppController {
 					$cities = $this->Cidade->find('list', array('fields' => array('Cidade.id', 'Cidade.des', 'Cidade.id_states')));
 					$this->set('cities', $cities);
 					$this->Endereco->set($this->data);
-
 			if($this->Endereco->validates()){
 				if(!empty($this->data)){
+					if($this->Endereco->controlAdd($this->data) == false){
+						$this->set('error', true);
+						$this->Session->setFlash('Por favor, revise novamente os campos destacados em vermelho.');
+						return false;
+					}
 					$this->Pais->save($this->Endereco->controlAdd($this->data));
 					$this->Estado->save($this->Endereco->controlAdd($this->data));
 					$this->Cidade->save($this->Endereco->controlAdd($this->data));
-					$this->set('success', true);
-					$this->Session->setFlash('O endereço foi cadastrado corretamente no sistema.');
+					$this->Session->setFlash('<strong>Sucesso!</strong> O endereço foi cadastrado corretamente no sistema.');
+					$this->redirect('adiciona');
 				}
 			}  else {
 						$this->set('error', true);
@@ -33,14 +38,14 @@ class EnderecosController extends AppController {
 		
 		public function gerencia(){
 			//Pais
-					$countries = $this->Pais->find('all');
-					$this->set('countries', $countries);
-				//Estados
-					$states = $this->Estado->find('all');
-					$this->set('states', $states);
-				//Cidades
-					$cities = $this->Cidade->find('all');
-					$this->set('cities', $cities);
+				$countries = $this->Pais->find('all');
+				$this->set('countries', $countries);
+			//Estados
+				$states = $this->Estado->find('all');
+				$this->set('states', $states);
+			//Cidades
+				$cities = $this->Cidade->find('all');
+				$this->set('cities', $cities);
 		}
 		
 		public function edita($type, $id){

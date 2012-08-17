@@ -40,13 +40,16 @@ class Endereco extends AppModel{
 						case 'C':
 							$check['Cidade']['des'] = $check['Endereco']['des'];
 							if(!isset($check['Endereco']['states'])){
-								$this->set('error', true);
 								return false;
 							}
 							$check['Cidade']['id_states'] = $check['Endereco']['states'];
 							return $check;
 						break;
 					}
+
+		}
+
+		public function controlEdit($check){
 
 		}
 		

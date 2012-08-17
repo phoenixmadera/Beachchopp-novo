@@ -1,8 +1,9 @@
 <?php echo $this->Html->script('system-functions/add-addresses'); ?>
-<?php if(isset($success)): ?>
+<?php $msg = $this->Session->flash(); ?>
+<?php if($msg != false && strpos($msg,'Sucesso') == true): ?>
 				<div class="alert alert-success">
 			    <button type="button" class="close" data-dismiss="alert">×</button>
-			    <strong>Sucesso!</strong> <?php echo $this->Session->flash(); ?>
+			    <?php echo $msg; ?>
 			  </div>
 				<script type = "text/javascript">
 					$(document).ready(function() {	
@@ -12,7 +13,7 @@
 <?php elseif(isset($error)): ?>
 				<div class="alert alert-error">
 			    <button type="button" class="close" data-dismiss="alert">×</button>
-			    <strong>Erro!</strong> <?php echo $this->Session->flash(); ?>
+			    <strong>Erro!</strong> <?php echo $msg; ?>
 			  </div>
 				<script type = "text/javascript">
 					$(document).ready(function() {	

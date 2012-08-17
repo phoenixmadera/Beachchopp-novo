@@ -54,6 +54,7 @@ $(document).ready(function() {
 						//Se o estado é nulo, valida e retorna a borda vermelha no select.
 						if($('#EnderecoStates').val() == null){
 							$('.state').addClass('control-group error');
+							return false;
 						}
 				break;
 			}
