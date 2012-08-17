@@ -17,8 +17,6 @@
 													width: @width;
 													.centralize;
 													padding: 19px;
-													padding-top: 5px;
-													margin-bottom: 20px;
 													background-color: whiteSmoke;
 													border: 1px solid #EEE;
 													-webkit-border-radius: 4px;
@@ -30,14 +28,15 @@
 
 //Page elements
 
-.row-fluid {	.setDisplay;	}
-footer {	position: absolute;
-					bottom: 0;
-					.setSize(@hr-footer-margin);
-					margin-left: -20px;
-					margin-right: -20px;
-					p {	padding-left: 20px;	}	
+optgroup label {	display: none;	}
+
+.row-fluid {	.setDisplay;
+							margin-top: 55px;	}
+footer {
+					
 }
+
+.container-fluid {		}
 
 .login-form {	.setSize(259px);
 							.centralize;
@@ -46,16 +45,22 @@ footer {	position: absolute;
 							.btn {	float: right;	}
 }
 
-.row-fluid {	margin-top: 55px;	}
+.row-fluid {}
 
 .message { display: inline;	}
 
 .add-address {	.outerDiv(312px);
 								h2 {	float: left;	}
 								.btn.primary{	float: right;	}	
-								.botao-voltar {	float: right;
+								.back-btn {	float: right;
 																margin-top: 13px;	}
 								.legenda {	margin-top: 20px;
 														margin-bottom: 5px;	}
 								input[type="text"] {	.setSize(100%);	}
+}
+
+.manage-address {	.outerDiv(450px);
+									.btn-group{	float: right;	}
+									.state {	padding-left: 20px;	}
+									.city {	padding-left: 40px;	}	
 }

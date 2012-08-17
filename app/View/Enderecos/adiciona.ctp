@@ -33,10 +33,10 @@
   </div>
   <div class = "add-address">
 		<h2>Cadastro de Endereço</h2>
-			<div class = "botao-voltar">
+			<div class = "back-btn">
 <?php 	echo $this->Html->link('voltar', array('controller' => 'users', 'action' => 'painel')); ?>
 			</div>
-	<div class = "conteudo">
+	<div class = "content">
 <?php	echo $this->Form->create('Endereco', array('action' => 'adiciona')); ?>
 				<div class = "legenda">
 					Selecione o tipo de localização que deseja cadastrar:
