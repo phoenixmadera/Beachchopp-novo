@@ -15,12 +15,16 @@
 
 .reset() {	clear: both;	}
 
-.outerDiv(@width: auto) { min-height: 20px;
+.setFormBtn(@float: right, @clear: none) {	.btn.primary {	float: @float;
+																						clear: @clear;	}	
+							}
+
+.outerDiv(@width: auto, @h2-float: left) { min-height: 20px;
 													width: @width;
 													.centralize;
 													.back-btn {	float: right;
 																			margin-top: 13px;	}
-													h2 {	float: left;	}
+													h2 {	float: @h2-float;	}
 													padding: 19px;
 													background-color: whiteSmoke;
 													border: 1px solid #EEE;
@@ -53,7 +57,7 @@ optgroup label {	display: none;	}
 .message { display: inline;	}
 
 .add-address, .edit-address {	.outerDiv(312px);
-															.btn.primary{	float: right;	}	
+															.setFormBtn;
 															input[type="text"] {	.setSize(100%);	}
 							}
 
@@ -71,3 +75,16 @@ optgroup label {	display: none;	}
 									.state {	.setTableIndent();	}
 									.city {	.setTableIndent(65px);	}	
 								}
+
+.add-customers {	.setSize(890px);
+									.centralize;
+									.setFormBtn(left, both);
+									.personal-info, .address {	.outerDiv(380px, none);
+																							input[type="text"] {	.setSize(98%);	}	
+																						}
+									.personal-info {	float: left;	}
+									.address {	float: right;	}
+									.new-addresses {	.outerDiv(380px);
+																		float: left;
+																		margin-top: 20px;	}
+							 }

@@ -47,6 +47,7 @@ optgroup label {
 .add-address .btn.primary,
 .edit-address .btn.primary {
   float: right;
+  clear: none;
 }
 .add-address input[type="text"],
 .edit-address input[type="text"] {
@@ -110,4 +111,71 @@ optgroup label {
 .manage-address .city img {
   margin-top: -19px;
   margin-right: 3px;
+}
+.add-customers {
+  width: 890px;
+  height: auto;
+  margin: 0 auto;
+}
+.add-customers .btn.primary {
+  float: left;
+  clear: both;
+}
+.add-customers .personal-info,
+.add-customers .address {
+  min-height: 20px;
+  width: 380px;
+  margin: 0 auto;
+  padding: 19px;
+  background-color: whiteSmoke;
+  border: 1px solid #EEE;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  border-radius: 4px;
+  -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.05);
+  -moz-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.05);
+  box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.05);
+}
+.add-customers .personal-info .back-btn,
+.add-customers .address .back-btn {
+  float: right;
+  margin-top: 13px;
+}
+.add-customers .personal-info h2,
+.add-customers .address h2 {
+  float: none;
+}
+.add-customers .personal-info input[type="text"],
+.add-customers .address input[type="text"] {
+  width: 98%;
+  height: auto;
+}
+.add-customers .personal-info {
+  float: left;
+}
+.add-customers .address {
+  float: right;
+}
+.add-customers .new-addresses {
+  min-height: 20px;
+  width: 380px;
+  margin: 0 auto;
+  padding: 19px;
+  background-color: whiteSmoke;
+  border: 1px solid #EEE;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  border-radius: 4px;
+  -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.05);
+  -moz-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.05);
+  box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.05);
+  float: left;
+  margin-top: 20px;
+}
+.add-customers .new-addresses .back-btn {
+  float: right;
+  margin-top: 13px;
+}
+.add-customers .new-addresses h2 {
+  float: left;
 }
