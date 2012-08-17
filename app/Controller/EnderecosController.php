@@ -61,33 +61,42 @@ class EnderecosController extends AppController {
 		}
 		
 		public function edita($type, $id){
+			$this->Endereco->set($this->data);
 			switch($type):
 				case 'pais':
 					$conditions = array('Pais.id' => $id);
 					$country = $this->Pais->find('first', array('conditions' => $conditions,'fields' => 'Pais.des'));
 					$this->set('country', $country);
 					$this->set('type', $type);
-					if(!empty($this->data)){
-						$this->request->data['Pais']['des'] = $this->data['Endereco']['des'];
-						$this->Pais->id = $id;
-						$this->Pais->read(null, $id);
-						$this->Pais->save($this->data);
-						$this->redirect('gerencia');
+					if($this->Endereco->validates()){
+						if(!empty($this->data)){
+							$this->request->data['Pais']['des'] = $this->data['Endereco']['des'];
+							$this->Pais->id = $id;
+							$this->Pais->read(null, $id);
+							$this->Pais->save($this->data);
+							$this->redirect('gerencia');
+						}
+					} else {
+						$this->set('error', true);
 					}
 				break;
 				case 'estado':
 					$conditions = array('Estado.id' => $id);
 					$state = $state = $this->Estado->find('first', array('conditions' => $conditions, 'fields' => array('Estado.id', 'Estado.des', 'Estado.id_countries')));
 					$this->set('state', $state);
-					debug($state['Estado']);
 					$this->set('type', $type);
-					if(!empty($this->data)){
-						$this->request->data['Estado']['des'] = $this->data['Endereco']['des'];
-						$this->request->data['Estado']['id_countries'] = $this->data['Endereco']['country'];
-						$this->Estado->id = $id;
-						$this->Estado->read(null, $id);
-						$this->Estado->save($this->data);
-						$this->redirect('gerencia');
+					$this->set('country_id', $state['Estado']['id_countries']);
+					if($this->Endereco->validates()){
+						if(!empty($this->data)){
+							$this->request->data['Estado']['des'] = $this->data['Endereco']['des'];
+							$this->request->data['Estado']['id_countries'] = $this->data['Endereco']['country'];
+							$this->Estado->id = $id;
+							$this->Estado->read(null, $id);
+							$this->Estado->save($this->data);
+							$this->redirect('gerencia');
+						}
+					} else {
+							$this->set('error', true);
 					}
 				break;
 				case 'cidade':
@@ -100,23 +109,28 @@ class EnderecosController extends AppController {
 					$conditions = array('Estado.id_countries' => $country['Pais']['id']);
 					$list_states = $this->Estado->find('list', array('conditions' => $conditions, 'fields' => array('Estado.id', 'Estado.des', 'Estado.id_countries')));
 					$this->set('city', $city);
-					$this->set('state', $state);
+					$this->set('state_aux', $state);
 					$this->set('country', $country);
 					$this->set('list_states', $list_states);
 					$this->set('type', $type);
-					if(!empty($this->data)){
-						$this->request->data['Cidade']['des'] = $this->data['Endereco']['des'];
-						$this->request->data['Cidade']['id_states'] = $this->data['Endereco']['state'];
-						$this->Cidade->id = $id;
-						$this->Cidade->read(null, $id);
-						$this->Cidade->save($this->data);
-						$this->redirect('gerencia');
+					$this->set('state_id', $city['Cidade']['id_states']);
+					if($this->Endereco->validates()){
+						if(!empty($this->data)){
+							$this->request->data['Cidade']['des'] = $this->data['Endereco']['des'];
+							$this->request->data['Cidade']['id_states'] = $this->data['Endereco']['state'];
+							$this->Cidade->id = $id;
+							$this->Cidade->read(null, $id);
+							$this->Cidade->save($this->data);
+							$this->redirect('gerencia');
+						}
+					} else {
+							$this->set('error', true);
 					}
 				break;
 			endswitch;
 			//População dos campos SELECT do formulário de endereço:
 				$countries = $this->Pais->find('list', array('fields' => 'Pais.des'));
-					$this->set('countries', $countries);
+				$this->set('countries', $countries);
 		}
 		
 		public function remove($type, $id){

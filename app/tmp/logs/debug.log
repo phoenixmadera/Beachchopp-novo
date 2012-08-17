@@ -1,0 +1,405 @@
+2012-08-17 02:53:48 Notice: Notice (8): Undefined variable: state in [/Applications/XAMPP/xamppfiles/htdocs/beachchopp-novo/app/View/Enderecos/edita.ctp, line 4]
+Trace:
+include - APP/View/Enderecos/edita.ctp, line 4
+View::_evaluate() - CORE/Cake/View/View.php, line 920
+View::_render() - CORE/Cake/View/View.php, line 883
+View::render() - CORE/Cake/View/View.php, line 475
+Controller::render() - CORE/Cake/Controller/Controller.php, line 957
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 161
+[main] - APP/webroot/index.php, line 92
+
+2012-08-17 02:55:43 Notice: Notice (8): Undefined variable: state in [/Applications/XAMPP/xamppfiles/htdocs/beachchopp-novo/app/View/Enderecos/edita.ctp, line 4]
+Trace:
+include - APP/View/Enderecos/edita.ctp, line 4
+View::_evaluate() - CORE/Cake/View/View.php, line 920
+View::_render() - CORE/Cake/View/View.php, line 883
+View::render() - CORE/Cake/View/View.php, line 475
+Controller::render() - CORE/Cake/Controller/Controller.php, line 957
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 161
+[main] - APP/webroot/index.php, line 92
+
+2012-08-17 02:56:35 Notice: Notice (8): Undefined variable: state in [/Applications/XAMPP/xamppfiles/htdocs/beachchopp-novo/app/View/Enderecos/edita.ctp, line 4]
+Trace:
+include - APP/View/Enderecos/edita.ctp, line 4
+View::_evaluate() - CORE/Cake/View/View.php, line 920
+View::_render() - CORE/Cake/View/View.php, line 883
+View::render() - CORE/Cake/View/View.php, line 475
+Controller::render() - CORE/Cake/Controller/Controller.php, line 957
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 161
+[main] - APP/webroot/index.php, line 92
+
+2012-08-17 02:58:07 Notice: Notice (8): Undefined variable: state in [/Applications/XAMPP/xamppfiles/htdocs/beachchopp-novo/app/View/Enderecos/edita.ctp, line 4]
+Trace:
+include - APP/View/Enderecos/edita.ctp, line 4
+View::_evaluate() - CORE/Cake/View/View.php, line 920
+View::_render() - CORE/Cake/View/View.php, line 883
+View::render() - CORE/Cake/View/View.php, line 475
+Controller::render() - CORE/Cake/Controller/Controller.php, line 957
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 161
+[main] - APP/webroot/index.php, line 92
+
+2012-08-17 03:00:24 Notice: Notice (8): Undefined variable: state in [/Applications/XAMPP/xamppfiles/htdocs/beachchopp-novo/app/View/Enderecos/edita.ctp, line 4]
+Trace:
+include - APP/View/Enderecos/edita.ctp, line 4
+View::_evaluate() - CORE/Cake/View/View.php, line 920
+View::_render() - CORE/Cake/View/View.php, line 883
+View::render() - CORE/Cake/View/View.php, line 475
+Controller::render() - CORE/Cake/Controller/Controller.php, line 957
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 161
+[main] - APP/webroot/index.php, line 92
+
+2012-08-17 03:03:49 Notice: Notice (8): Undefined variable: state in [/Applications/XAMPP/xamppfiles/htdocs/beachchopp-novo/app/View/Enderecos/edita.ctp, line 4]
+Trace:
+include - APP/View/Enderecos/edita.ctp, line 4
+View::_evaluate() - CORE/Cake/View/View.php, line 920
+View::_render() - CORE/Cake/View/View.php, line 883
+View::render() - CORE/Cake/View/View.php, line 475
+Controller::render() - CORE/Cake/Controller/Controller.php, line 957
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 161
+[main] - APP/webroot/index.php, line 92
+
+2012-08-17 03:21:23 Notice: Notice (8): Undefined variable: state in [/Applications/XAMPP/xamppfiles/htdocs/beachchopp-novo/app/View/Enderecos/edita.ctp, line 4]
+Trace:
+include - APP/View/Enderecos/edita.ctp, line 4
+View::_evaluate() - CORE/Cake/View/View.php, line 920
+View::_render() - CORE/Cake/View/View.php, line 883
+View::render() - CORE/Cake/View/View.php, line 475
+Controller::render() - CORE/Cake/Controller/Controller.php, line 957
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 161
+[main] - APP/webroot/index.php, line 92
+
+2012-08-17 03:23:11 Notice: Notice (8): Undefined variable: state in [/Applications/XAMPP/xamppfiles/htdocs/beachchopp-novo/app/View/Enderecos/edita.ctp, line 4]
+Trace:
+include - APP/View/Enderecos/edita.ctp, line 4
+View::_evaluate() - CORE/Cake/View/View.php, line 920
+View::_render() - CORE/Cake/View/View.php, line 883
+View::render() - CORE/Cake/View/View.php, line 475
+Controller::render() - CORE/Cake/Controller/Controller.php, line 957
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 161
+[main] - APP/webroot/index.php, line 92
+
+2012-08-17 03:23:14 Notice: Notice (8): Undefined variable: state in [/Applications/XAMPP/xamppfiles/htdocs/beachchopp-novo/app/View/Enderecos/edita.ctp, line 4]
+Trace:
+include - APP/View/Enderecos/edita.ctp, line 4
+View::_evaluate() - CORE/Cake/View/View.php, line 920
+View::_render() - CORE/Cake/View/View.php, line 883
+View::render() - CORE/Cake/View/View.php, line 475
+Controller::render() - CORE/Cake/Controller/Controller.php, line 957
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 161
+[main] - APP/webroot/index.php, line 92
+
+2012-08-17 03:23:14 Notice: Notice (8): Undefined variable: type in [/Applications/XAMPP/xamppfiles/htdocs/beachchopp-novo/app/View/Enderecos/edita.ctp, line 5]
+Trace:
+include - APP/View/Enderecos/edita.ctp, line 5
+View::_evaluate() - CORE/Cake/View/View.php, line 920
+View::_render() - CORE/Cake/View/View.php, line 883
+View::render() - CORE/Cake/View/View.php, line 475
+Controller::render() - CORE/Cake/Controller/Controller.php, line 957
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 161
+[main] - APP/webroot/index.php, line 92
+
+2012-08-17 03:23:14 Notice: Notice (8): Undefined variable: type in [/Applications/XAMPP/xamppfiles/htdocs/beachchopp-novo/app/View/Enderecos/edita.ctp, line 42]
+Trace:
+include - APP/View/Enderecos/edita.ctp, line 42
+View::_evaluate() - CORE/Cake/View/View.php, line 920
+View::_render() - CORE/Cake/View/View.php, line 883
+View::render() - CORE/Cake/View/View.php, line 475
+Controller::render() - CORE/Cake/Controller/Controller.php, line 957
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 161
+[main] - APP/webroot/index.php, line 92
+
+2012-08-17 03:23:14 Notice: Notice (8): Undefined variable: type in [/Applications/XAMPP/xamppfiles/htdocs/beachchopp-novo/app/View/Enderecos/edita.ctp, line 58]
+Trace:
+include - APP/View/Enderecos/edita.ctp, line 58
+View::_evaluate() - CORE/Cake/View/View.php, line 920
+View::_render() - CORE/Cake/View/View.php, line 883
+View::render() - CORE/Cake/View/View.php, line 475
+Controller::render() - CORE/Cake/Controller/Controller.php, line 957
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 161
+[main] - APP/webroot/index.php, line 92
+
+2012-08-17 03:23:14 Notice: Notice (8): Undefined variable: type in [/Applications/XAMPP/xamppfiles/htdocs/beachchopp-novo/app/View/Enderecos/edita.ctp, line 81]
+Trace:
+include - APP/View/Enderecos/edita.ctp, line 81
+View::_evaluate() - CORE/Cake/View/View.php, line 920
+View::_render() - CORE/Cake/View/View.php, line 883
+View::render() - CORE/Cake/View/View.php, line 475
+Controller::render() - CORE/Cake/Controller/Controller.php, line 957
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 161
+[main] - APP/webroot/index.php, line 92
+
+2012-08-17 03:23:14 Notice: Notice (8): Undefined variable: type in [/Applications/XAMPP/xamppfiles/htdocs/beachchopp-novo/app/View/Enderecos/edita.ctp, line 112]
+Trace:
+include - APP/View/Enderecos/edita.ctp, line 112
+View::_evaluate() - CORE/Cake/View/View.php, line 920
+View::_render() - CORE/Cake/View/View.php, line 883
+View::render() - CORE/Cake/View/View.php, line 475
+Controller::render() - CORE/Cake/Controller/Controller.php, line 957
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 161
+[main] - APP/webroot/index.php, line 92
+
+2012-08-17 03:25:03 Notice: Notice (8): Undefined variable: state in [/Applications/XAMPP/xamppfiles/htdocs/beachchopp-novo/app/View/Enderecos/edita.ctp, line 4]
+Trace:
+include - APP/View/Enderecos/edita.ctp, line 4
+View::_evaluate() - CORE/Cake/View/View.php, line 920
+View::_render() - CORE/Cake/View/View.php, line 883
+View::render() - CORE/Cake/View/View.php, line 475
+Controller::render() - CORE/Cake/Controller/Controller.php, line 957
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 161
+[main] - APP/webroot/index.php, line 92
+
+2012-08-17 03:26:37 Notice: Notice (8): Undefined variable: state in [/Applications/XAMPP/xamppfiles/htdocs/beachchopp-novo/app/View/Enderecos/edita.ctp, line 4]
+Trace:
+include - APP/View/Enderecos/edita.ctp, line 4
+View::_evaluate() - CORE/Cake/View/View.php, line 920
+View::_render() - CORE/Cake/View/View.php, line 883
+View::render() - CORE/Cake/View/View.php, line 475
+Controller::render() - CORE/Cake/Controller/Controller.php, line 957
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 161
+[main] - APP/webroot/index.php, line 92
+
+2012-08-17 03:26:37 Notice: Notice (8): Undefined variable: type in [/Applications/XAMPP/xamppfiles/htdocs/beachchopp-novo/app/View/Enderecos/edita.ctp, line 5]
+Trace:
+include - APP/View/Enderecos/edita.ctp, line 5
+View::_evaluate() - CORE/Cake/View/View.php, line 920
+View::_render() - CORE/Cake/View/View.php, line 883
+View::render() - CORE/Cake/View/View.php, line 475
+Controller::render() - CORE/Cake/Controller/Controller.php, line 957
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 161
+[main] - APP/webroot/index.php, line 92
+
+2012-08-17 03:26:37 Notice: Notice (8): Undefined variable: type in [/Applications/XAMPP/xamppfiles/htdocs/beachchopp-novo/app/View/Enderecos/edita.ctp, line 33]
+Trace:
+include - APP/View/Enderecos/edita.ctp, line 33
+View::_evaluate() - CORE/Cake/View/View.php, line 920
+View::_render() - CORE/Cake/View/View.php, line 883
+View::render() - CORE/Cake/View/View.php, line 475
+Controller::render() - CORE/Cake/Controller/Controller.php, line 957
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 161
+[main] - APP/webroot/index.php, line 92
+
+2012-08-17 03:26:37 Notice: Notice (8): Undefined variable: type in [/Applications/XAMPP/xamppfiles/htdocs/beachchopp-novo/app/View/Enderecos/edita.ctp, line 49]
+Trace:
+include - APP/View/Enderecos/edita.ctp, line 49
+View::_evaluate() - CORE/Cake/View/View.php, line 920
+View::_render() - CORE/Cake/View/View.php, line 883
+View::render() - CORE/Cake/View/View.php, line 475
+Controller::render() - CORE/Cake/Controller/Controller.php, line 957
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 161
+[main] - APP/webroot/index.php, line 92
+
+2012-08-17 03:26:37 Notice: Notice (8): Undefined variable: type in [/Applications/XAMPP/xamppfiles/htdocs/beachchopp-novo/app/View/Enderecos/edita.ctp, line 72]
+Trace:
+include - APP/View/Enderecos/edita.ctp, line 72
+View::_evaluate() - CORE/Cake/View/View.php, line 920
+View::_render() - CORE/Cake/View/View.php, line 883
+View::render() - CORE/Cake/View/View.php, line 475
+Controller::render() - CORE/Cake/Controller/Controller.php, line 957
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 161
+[main] - APP/webroot/index.php, line 92
+
+2012-08-17 03:26:37 Notice: Notice (8): Undefined variable: type in [/Applications/XAMPP/xamppfiles/htdocs/beachchopp-novo/app/View/Enderecos/edita.ctp, line 103]
+Trace:
+include - APP/View/Enderecos/edita.ctp, line 103
+View::_evaluate() - CORE/Cake/View/View.php, line 920
+View::_render() - CORE/Cake/View/View.php, line 883
+View::render() - CORE/Cake/View/View.php, line 475
+Controller::render() - CORE/Cake/Controller/Controller.php, line 957
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 161
+[main] - APP/webroot/index.php, line 92
+
+2012-08-17 03:28:56 Notice: Notice (8): Undefined variable: state in [/Applications/XAMPP/xamppfiles/htdocs/beachchopp-novo/app/View/Enderecos/edita.ctp, line 4]
+Trace:
+include - APP/View/Enderecos/edita.ctp, line 4
+View::_evaluate() - CORE/Cake/View/View.php, line 920
+View::_render() - CORE/Cake/View/View.php, line 883
+View::render() - CORE/Cake/View/View.php, line 475
+Controller::render() - CORE/Cake/Controller/Controller.php, line 957
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 161
+[main] - APP/webroot/index.php, line 92
+
+2012-08-17 03:28:59 Notice: Notice (8): Undefined variable: state in [/Applications/XAMPP/xamppfiles/htdocs/beachchopp-novo/app/View/Enderecos/edita.ctp, line 4]
+Trace:
+include - APP/View/Enderecos/edita.ctp, line 4
+View::_evaluate() - CORE/Cake/View/View.php, line 920
+View::_render() - CORE/Cake/View/View.php, line 883
+View::render() - CORE/Cake/View/View.php, line 475
+Controller::render() - CORE/Cake/Controller/Controller.php, line 957
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 161
+[main] - APP/webroot/index.php, line 92
+
+2012-08-17 03:30:51 Notice: Notice (8): Undefined variable: state in [/Applications/XAMPP/xamppfiles/htdocs/beachchopp-novo/app/View/Enderecos/edita.ctp, line 4]
+Trace:
+include - APP/View/Enderecos/edita.ctp, line 4
+View::_evaluate() - CORE/Cake/View/View.php, line 920
+View::_render() - CORE/Cake/View/View.php, line 883
+View::render() - CORE/Cake/View/View.php, line 475
+Controller::render() - CORE/Cake/Controller/Controller.php, line 957
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 161
+[main] - APP/webroot/index.php, line 92
+
+2012-08-17 03:30:56 Notice: Notice (8): Undefined variable: state in [/Applications/XAMPP/xamppfiles/htdocs/beachchopp-novo/app/View/Enderecos/edita.ctp, line 4]
+Trace:
+include - APP/View/Enderecos/edita.ctp, line 4
+View::_evaluate() - CORE/Cake/View/View.php, line 920
+View::_render() - CORE/Cake/View/View.php, line 883
+View::render() - CORE/Cake/View/View.php, line 475
+Controller::render() - CORE/Cake/Controller/Controller.php, line 957
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 161
+[main] - APP/webroot/index.php, line 92
+
+2012-08-17 03:31:02 Notice: Notice (8): Undefined variable: state in [/Applications/XAMPP/xamppfiles/htdocs/beachchopp-novo/app/View/Enderecos/edita.ctp, line 4]
+Trace:
+include - APP/View/Enderecos/edita.ctp, line 4
+View::_evaluate() - CORE/Cake/View/View.php, line 920
+View::_render() - CORE/Cake/View/View.php, line 883
+View::render() - CORE/Cake/View/View.php, line 475
+Controller::render() - CORE/Cake/Controller/Controller.php, line 957
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 161
+[main] - APP/webroot/index.php, line 92
+
+2012-08-17 03:40:30 Notice: Notice (8): Undefined variable: country_value in [/Applications/XAMPP/xamppfiles/htdocs/beachchopp-novo/app/View/Enderecos/edita.ctp, line 59]
+Trace:
+include - APP/View/Enderecos/edita.ctp, line 59
+View::_evaluate() - CORE/Cake/View/View.php, line 920
+View::_render() - CORE/Cake/View/View.php, line 883
+View::render() - CORE/Cake/View/View.php, line 475
+Controller::render() - CORE/Cake/Controller/Controller.php, line 957
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 161
+[main] - APP/webroot/index.php, line 92
+
+2012-08-17 03:55:23 Notice: Notice (8): Undefined variable: state in [/Applications/XAMPP/xamppfiles/htdocs/beachchopp-novo/app/Controller/EnderecosController.php, line 105]
+Trace:
+EnderecosController::edita() - APP/Controller/EnderecosController.php, line 105
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE/Cake/Controller/Controller.php, line 485
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 186
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 161
+[main] - APP/webroot/index.php, line 92
+
+2012-08-17 03:56:55 Notice: Notice (8): Undefined variable: state_aux in [/Applications/XAMPP/xamppfiles/htdocs/beachchopp-novo/app/View/Enderecos/edita.ctp, line 61]
+Trace:
+include - APP/View/Enderecos/edita.ctp, line 61
+View::_evaluate() - CORE/Cake/View/View.php, line 920
+View::_render() - CORE/Cake/View/View.php, line 883
+View::render() - CORE/Cake/View/View.php, line 475
+Controller::render() - CORE/Cake/Controller/Controller.php, line 957
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 161
+[main] - APP/webroot/index.php, line 92
+
+2012-08-17 03:57:00 Notice: Notice (8): Undefined variable: state_aux in [/Applications/XAMPP/xamppfiles/htdocs/beachchopp-novo/app/View/Enderecos/edita.ctp, line 61]
+Trace:
+include - APP/View/Enderecos/edita.ctp, line 61
+View::_evaluate() - CORE/Cake/View/View.php, line 920
+View::_render() - CORE/Cake/View/View.php, line 883
+View::render() - CORE/Cake/View/View.php, line 475
+Controller::render() - CORE/Cake/Controller/Controller.php, line 957
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 161
+[main] - APP/webroot/index.php, line 92
+
+2012-08-17 04:00:34 Notice: Notice (8): Undefined variable: state_aux in [/Applications/XAMPP/xamppfiles/htdocs/beachchopp-novo/app/View/Enderecos/edita.ctp, line 72]
+Trace:
+include - APP/View/Enderecos/edita.ctp, line 72
+View::_evaluate() - CORE/Cake/View/View.php, line 920
+View::_render() - CORE/Cake/View/View.php, line 883
+View::render() - CORE/Cake/View/View.php, line 475
+Controller::render() - CORE/Cake/Controller/Controller.php, line 957
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 161
+[main] - APP/webroot/index.php, line 92
+
+2012-08-17 04:00:59 Notice: Notice (8): Undefined variable: state_aux in [/Applications/XAMPP/xamppfiles/htdocs/beachchopp-novo/app/View/Enderecos/edita.ctp, line 72]
+Trace:
+include - APP/View/Enderecos/edita.ctp, line 72
+View::_evaluate() - CORE/Cake/View/View.php, line 920
+View::_render() - CORE/Cake/View/View.php, line 883
+View::render() - CORE/Cake/View/View.php, line 475
+Controller::render() - CORE/Cake/Controller/Controller.php, line 957
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 161
+[main] - APP/webroot/index.php, line 92
+
+2012-08-17 04:01:01 Notice: Notice (8): Undefined variable: state_aux in [/Applications/XAMPP/xamppfiles/htdocs/beachchopp-novo/app/View/Enderecos/edita.ctp, line 72]
+Trace:
+include - APP/View/Enderecos/edita.ctp, line 72
+View::_evaluate() - CORE/Cake/View/View.php, line 920
+View::_render() - CORE/Cake/View/View.php, line 883
+View::render() - CORE/Cake/View/View.php, line 475
+Controller::render() - CORE/Cake/Controller/Controller.php, line 957
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 161
+[main] - APP/webroot/index.php, line 92
+
+2012-08-17 04:01:17 Notice: Notice (8): Undefined variable: state_aux in [/Applications/XAMPP/xamppfiles/htdocs/beachchopp-novo/app/View/Enderecos/edita.ctp, line 72]
+Trace:
+include - APP/View/Enderecos/edita.ctp, line 72
+View::_evaluate() - CORE/Cake/View/View.php, line 920
+View::_render() - CORE/Cake/View/View.php, line 883
+View::render() - CORE/Cake/View/View.php, line 475
+Controller::render() - CORE/Cake/Controller/Controller.php, line 957
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 161
+[main] - APP/webroot/index.php, line 92
+
+2012-08-17 04:01:55 Notice: Notice (8): Undefined variable: state_aux in [/Applications/XAMPP/xamppfiles/htdocs/beachchopp-novo/app/View/Enderecos/edita.ctp, line 72]
+Trace:
+include - APP/View/Enderecos/edita.ctp, line 72
+View::_evaluate() - CORE/Cake/View/View.php, line 920
+View::_render() - CORE/Cake/View/View.php, line 883
+View::render() - CORE/Cake/View/View.php, line 475
+Controller::render() - CORE/Cake/Controller/Controller.php, line 957
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 161
+[main] - APP/webroot/index.php, line 92
+
+2012-08-17 04:02:14 Notice: Notice (8): Undefined variable: state_aux in [/Applications/XAMPP/xamppfiles/htdocs/beachchopp-novo/app/View/Enderecos/edita.ctp, line 72]
+Trace:
+include - APP/View/Enderecos/edita.ctp, line 72
+View::_evaluate() - CORE/Cake/View/View.php, line 920
+View::_render() - CORE/Cake/View/View.php, line 883
+View::render() - CORE/Cake/View/View.php, line 475
+Controller::render() - CORE/Cake/Controller/Controller.php, line 957
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 161
+[main] - APP/webroot/index.php, line 92
+
+2012-08-17 04:02:21 Notice: Notice (8): Undefined variable: state_aux in [/Applications/XAMPP/xamppfiles/htdocs/beachchopp-novo/app/View/Enderecos/edita.ctp, line 72]
+Trace:
+include - APP/View/Enderecos/edita.ctp, line 72
+View::_evaluate() - CORE/Cake/View/View.php, line 920
+View::_render() - CORE/Cake/View/View.php, line 883
+View::render() - CORE/Cake/View/View.php, line 475
+Controller::render() - CORE/Cake/Controller/Controller.php, line 957
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 161
+[main] - APP/webroot/index.php, line 92
+

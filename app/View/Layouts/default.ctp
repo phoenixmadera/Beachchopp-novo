@@ -20,6 +20,7 @@
 		echo $this->Html->script('global.js');
 		echo $this->Html->script('bootstrap/bootstrap-button.js');
 		echo $this->Html->script('bootstrap/bootstrap-dropdown.js');
+		echo $this->Html->script('bootstrap/bootstrap-alert.js');
 	?>
 </head>
 <body>

@@ -4223,7 +4223,8 @@ optgroup label {
 .message {
   display: inline;
 }
-.add-address {
+.add-address,
+.edit-address {
   min-height: 20px;
   width: 312px;
   margin: 0 auto;
@@ -4237,23 +4238,30 @@ optgroup label {
   -moz-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.05);
   box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.05);
 }
-.add-address .back-btn {
+.add-address .back-btn,
+.edit-address .back-btn {
   float: right;
   margin-top: 13px;
 }
-.add-address h2 {
+.add-address h2,
+.edit-address h2 {
   float: left;
 }
-.add-address .btn.primary {
+.add-address .btn.primary,
+.edit-address .btn.primary {
   float: right;
 }
-.add-address .legenda {
-  margin-top: 20px;
-  margin-bottom: 5px;
-}
-.add-address input[type="text"] {
+.add-address input[type="text"],
+.edit-address input[type="text"] {
   width: 100%;
   height: auto;
+}
+.add-address .legenda {
+  clear: both;
+  margin-bottom: 5px;
+}
+.edit-address .content {
+  clear: both;
 }
 .manage-address {
   min-height: 20px;
