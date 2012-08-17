@@ -16,6 +16,9 @@
 .outerDiv(@width: auto) { min-height: 20px;
 													width: @width;
 													.centralize;
+													.back-btn {	float: right;
+																			margin-top: 13px;	}
+													h2 {	float: left;	}
 													padding: 19px;
 													background-color: whiteSmoke;
 													border: 1px solid #EEE;
@@ -26,53 +29,38 @@
 													-moz-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.05);
 													box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.05);	}
 
-//Page elements
+.setTableIndent(@padding-left: 30px, @padding-top: 14px){	padding-left: @padding-left;
+																													padding-top: @padding-top;
+																													img {	margin-top: -19px;
+																													margin-right: 3px;	}	
+																												}
 
+//Page elements
 optgroup label {	display: none;	}
 
 .row-fluid {	.setDisplay;
 							margin-top: 55px;	}
-footer {
-					
-}
-
-.container-fluid {		}
 
 .login-form {	.setSize(259px);
 							.centralize;
 							.well {	padding-top: 5px;
 											padding-bottom: 5px; }
 							.btn {	float: right;	}
-}
-
-.row-fluid {}
+						}
 
 .message { display: inline;	}
 
 .add-address {	.outerDiv(312px);
-								h2 {	float: left;	}
 								.btn.primary{	float: right;	}	
-								.back-btn {	float: right;
-																margin-top: 13px;	}
 								.legenda {	margin-top: 20px;
 														margin-bottom: 5px;	}
 								input[type="text"] {	.setSize(100%);	}
-}
+							}
 
 .manage-address {	.outerDiv(450px);
-									h2 {	float: left;	}
 									.content {	margin-top: 45px;	}
 									.btn-group{	float: right;	}
-									.country {	padding-top: 14px;
-															background-color:;	}
-									.state {	padding-left: 30px;
-														padding-top: 14px;
-														img {	margin-top: -19px;
-																	margin-right: 3px;	}	}
-									.city {	padding-left: 65px;
-													padding-top: 14px;
-													img {	margin-top: -19px;
-																margin-right: 3px;	}	}	
-									.back-btn{	float: right; 
-															margin-top: 13px;	}
-}
+									.country {	.setTableIndent(5px);	}
+									.state {	.setTableIndent();	}
+									.city {	.setTableIndent(65px);	}	
+								}
