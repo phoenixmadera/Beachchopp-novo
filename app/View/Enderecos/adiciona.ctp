@@ -1,11 +1,19 @@
 <?php echo $this->Html->script('system-functions/add-addresses'); ?>
 <?php if(isset($success)): ?>
+				<div class="alert alert-success">
+			    <button type="button" class="close" data-dismiss="alert">×</button>
+			    <strong>Sucesso!</strong> <?php echo $this->Session->flash(); ?>
+			  </div>
 				<script type = "text/javascript">
 					$(document).ready(function() {	
 						$('.alert-success').toggleAlert();
 					});
 				</script>
 <?php elseif(isset($error)): ?>
+				<div class="alert alert-error">
+			    <button type="button" class="close" data-dismiss="alert">×</button>
+			    <strong>Erro!</strong> <?php echo $this->Session->flash(); ?>
+			  </div>
 				<script type = "text/javascript">
 					$(document).ready(function() {	
 						$('.alert-error').toggleAlert();
@@ -23,14 +31,6 @@
  		});
  	});
 </script>
-	<div class="alert alert-success">
-    <button type="button" class="close" data-dismiss="alert">×</button>
-    <strong>Sucesso!</strong> O produto foi corretamente cadastrado no sistema.
-  </div>
-	<div class="alert alert-error">
-    <button type="button" class="close" data-dismiss="alert">×</button>
-    <strong>Erro!</strong> Por favor, revise novamente os campos destacados em vermelho.
-  </div>
   <div class = "add-address">
 		<h2>Cadastro de Endereço</h2>
 			<div class = "back-btn">
@@ -57,7 +57,8 @@
 				</div>
 <?php echo $this->Form->input('des', array(
 																								'type' => 'text',
-																								'label' => 'Descrição'
+																								'label' => 'Descrição',
+																								'value' => ''
 															)); ?>
 <?php echo $this->Form->input(
 																	'countries',

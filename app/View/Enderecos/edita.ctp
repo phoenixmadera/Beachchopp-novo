@@ -1,5 +1,9 @@
 <?php echo $this->Html->script('system-functions/edit-addresses'); ?>
 <?php if(isset($error)): ?>
+				<div class="alert alert-error">
+					<button type="button" class="close" data-dismiss="alert">×</button>
+					<strong>Erro!</strong> <?php echo $this->Session->flash(); ?>
+				</div>
 				<script type = "text/javascript">
 					$(document).ready(function() {	
 						$('.alert-error').toggleAlert();
@@ -21,10 +25,6 @@
 					});
 				</script>
 <?php	endif; ?>
-<div class="alert alert-error">
-    <button type="button" class="close" data-dismiss="alert">×</button>
-    <strong>Erro!</strong> Por favor, revise novamente os campos destacados em vermelho.
-  </div>
  <div class = "edit-address">
 		<h2> Alteração de Endereço </h2>
 		<div class = "back-btn">

@@ -1,6 +1,15 @@
-<div class = "flash msg">
-  <?php echo $this->Session->flash(); ?>
-</div>
+<?php $msg = $this->Session->flash(); ?>
+<?php if($msg != false): ?>
+				<div class="alert alert-success">
+			    <button type="button" class="close" data-dismiss="alert">×</button>
+			    <strong>Sucesso!</strong> <?php echo $msg; ?>
+			  </div>
+				<script type = "text/javascript">
+					$(document).ready(function() {	
+						$('.alert-success').toggleAlert();
+					});
+				</script>
+<?php endif; ?>
 <div class = "manage-address">
 	<h2>Gerenciamento de Endereços</h2>
 	<div class = "back-btn">

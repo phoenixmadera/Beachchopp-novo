@@ -24,12 +24,14 @@ class EnderecosController extends AppController {
 							$this->request->data['Pais']['des'] = $this->data['Endereco']['des'];
 							$this->Pais->save($this->data);
 							$this->set('success', true);
+							$this->Session->setFlash('O endereço foi cadastrado corretamente no sistema.');
 						break;
 						case 'E':
 							$this->request->data['Estado']['des'] = $this->data['Endereco']['des'];
 							$this->request->data['Estado']['id_countries'] = $this->data['Endereco']['countries'];
 							$this->Estado->save($this->data);
 							$this->set('success', true);
+							$this->Session->setFlash('O endereço foi cadastrado corretamente no sistema.');
 						break;
 						case 'C':
 							$this->request->data['Cidade']['des'] = $this->data['Endereco']['des'];
@@ -40,11 +42,13 @@ class EnderecosController extends AppController {
 							$this->request->data['Cidade']['id_states'] = $this->data['Endereco']['states'];
 							$this->Cidade->save($this->data);
 							$this->set('success', true);
+							$this->Session->setFlash('O endereço foi cadastrado corretamente no sistema.');
 						break;
 					endswitch;
 				}
 			}  else {
 						$this->set('error', true);
+						$this->Session->setFlash('Por favor, revise novamente os campos destacados em vermelho.');
 				}
 		}
 		
@@ -74,10 +78,12 @@ class EnderecosController extends AppController {
 							$this->Pais->id = $id;
 							$this->Pais->read(null, $id);
 							$this->Pais->save($this->data);
+							$this->Session->setFlash('O endereço foi corretamente alterado.');
 							$this->redirect('gerencia');
 						}
 					} else {
 						$this->set('error', true);
+						$this->Session->setFlash('Por favor, revise novamente os campos destacados em vermelho.');
 					}
 				break;
 				case 'estado':
@@ -93,10 +99,12 @@ class EnderecosController extends AppController {
 							$this->Estado->id = $id;
 							$this->Estado->read(null, $id);
 							$this->Estado->save($this->data);
+							$this->Session->setFlash('O endereço foi corretamente alterado.');
 							$this->redirect('gerencia');
 						}
 					} else {
 							$this->set('error', true);
+							$this->Session->setFlash('Por favor, revise novamente os campos destacados em vermelho.');
 					}
 				break;
 				case 'cidade':
@@ -109,7 +117,6 @@ class EnderecosController extends AppController {
 					$conditions = array('Estado.id_countries' => $country['Pais']['id']);
 					$list_states = $this->Estado->find('list', array('conditions' => $conditions, 'fields' => array('Estado.id', 'Estado.des', 'Estado.id_countries')));
 					$this->set('city', $city);
-					$this->set('state_aux', $state);
 					$this->set('country', $country);
 					$this->set('list_states', $list_states);
 					$this->set('type', $type);
@@ -121,10 +128,12 @@ class EnderecosController extends AppController {
 							$this->Cidade->id = $id;
 							$this->Cidade->read(null, $id);
 							$this->Cidade->save($this->data);
+							$this->Session->setFlash('O endereço foi corretamente alterado.');
 							$this->redirect('gerencia');
 						}
 					} else {
 							$this->set('error', true);
+							$this->Session->setFlash('Por favor, revise novamente os campos destacados em vermelho.');
 					}
 				break;
 			endswitch;
@@ -137,12 +146,16 @@ class EnderecosController extends AppController {
 			switch($type):
 				case 'pais':
 					$this->Pais->delete($id, true);
+					$this->Session->setFlash('O endereço foi corretamente removido do sistema.');
 				break;
 				case 'estado':
 					$this->Estado->delete($id, true);
+
+					$this->Session->setFlash('O endereço foi corretamente removido do sistema.');
 				break;
 				case 'cidade':
 					$this->Cidade->delete($id, true);
+					$this->Session->setFlash('O endereço foi corretamente removido do sistema.');
 				break;
 			endswitch;
 			$this->redirect('gerencia');
