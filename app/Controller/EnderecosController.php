@@ -16,35 +16,14 @@ class EnderecosController extends AppController {
 					$cities = $this->Cidade->find('list', array('fields' => array('Cidade.id', 'Cidade.des', 'Cidade.id_states')));
 					$this->set('cities', $cities);
 					$this->Endereco->set($this->data);
+
 			if($this->Endereco->validates()){
 				if(!empty($this->data)){
-					$type = $this->data['Endereco']['type'];
-					switch($type):
-						case 'P':
-							$this->request->data['Pais']['des'] = $this->data['Endereco']['des'];
-							$this->Pais->save($this->data);
-							$this->set('success', true);
-							$this->Session->setFlash('O endereço foi cadastrado corretamente no sistema.');
-						break;
-						case 'E':
-							$this->request->data['Estado']['des'] = $this->data['Endereco']['des'];
-							$this->request->data['Estado']['id_countries'] = $this->data['Endereco']['countries'];
-							$this->Estado->save($this->data);
-							$this->set('success', true);
-							$this->Session->setFlash('O endereço foi cadastrado corretamente no sistema.');
-						break;
-						case 'C':
-							$this->request->data['Cidade']['des'] = $this->data['Endereco']['des'];
-							if(!isset($this->data['Endereco']['states'])){
-								$this->set('error', true);
-								return false;
-							}
-							$this->request->data['Cidade']['id_states'] = $this->data['Endereco']['states'];
-							$this->Cidade->save($this->data);
-							$this->set('success', true);
-							$this->Session->setFlash('O endereço foi cadastrado corretamente no sistema.');
-						break;
-					endswitch;
+					$this->Pais->save($this->Endereco->controlAdd($this->data));
+					$this->Estado->save($this->Endereco->controlAdd($this->data));
+					$this->Cidade->save($this->Endereco->controlAdd($this->data));
+					$this->set('success', true);
+					$this->Session->setFlash('O endereço foi cadastrado corretamente no sistema.');
 				}
 			}  else {
 						$this->set('error', true);

@@ -24,6 +24,31 @@ class Endereco extends AppModel{
 						'dependent' => true
 						)
 				);
+
+		public function controlAdd($check){
+			$type = $check['Endereco']['type'];
+					switch($type){
+						case 'P':
+							$check['Pais']['des'] = $check['Endereco']['des'];
+							return $check;
+						break;
+						case 'E':
+							$check['Estado']['des'] = $check['Endereco']['des'];
+							$check['Estado']['id_countries'] = $check['Endereco']['countries'];
+							return $check;
+						break;
+						case 'C':
+							$check['Cidade']['des'] = $check['Endereco']['des'];
+							if(!isset($check['Endereco']['states'])){
+								$this->set('error', true);
+								return false;
+							}
+							$check['Cidade']['id_states'] = $check['Endereco']['states'];
+							return $check;
+						break;
+					}
+
+		}
 		
 } 
 ?>
