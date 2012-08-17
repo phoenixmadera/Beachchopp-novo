@@ -1,4 +1,28 @@
 <?php echo $this->Html->script('system-functions/add-customers.js'); ?>
+<?php //echo $this->Html->script('system-functions/add-customers_old.js'); ?>
+<script type = "text/javascript">
+	$(document).ready(function() {
+
+		var state_value_default = $('#ClienteState').html();
+		var city_value_default = $('#ClienteCity').html();
+
+		//Popula os selects ao carregar a página
+		$('#ClienteCountry').populaSelects('#ClienteState', state_value_default);
+		$('#ClienteState').populaSelects('#ClienteCity', city_value_default);
+		
+		//Toda vez que mudar o select país
+		$('#ClienteCountry').change(function(){
+			$(this).populaSelects('#ClienteState', state_value_default);
+			$('#ClienteState').populaSelects('#ClienteCity', city_value_default);
+ 		});
+
+		//Toda vez que mudar o select estado
+ 		$('#ClienteState').change(function(){
+			$(this).populaSelects('#ClienteCity', city_value_default);
+ 		});
+
+ 	});
+</script>
 <div class="alert alert-error">
 	<button class="close" data-dismiss="alert">×</button>
 </div>
