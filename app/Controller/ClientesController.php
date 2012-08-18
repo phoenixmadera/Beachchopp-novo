@@ -18,6 +18,9 @@ class ClientesController extends AppController {
 				//Tipos de Endereço
 					$type_adresses = $this->TipoEndereco->find('list', array('fields' => array('TipoEndereco.id', 'TipoEndereco.des')));
 					$this->set('type_adresses', $type_adresses);
+				//Lista de Clientes
+					$customers = $this->Cliente->find('list', array('fields' => array('Cliente.id', 'Cliente.des')));
+					$this->set('customers', $customers);
 			if($this->data){
 				$conditions = array("TipoEndereco.des" => $this->data['Cliente']['type_addresses']);
 				$type_adresses_id = $this->TipoEndereco->find('first', array('conditions' => $conditions,

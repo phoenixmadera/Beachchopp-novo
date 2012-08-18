@@ -63,13 +63,13 @@
 																											'disabled' => 'disabled',
 																											'div' => array('class' => 'input text hidden-cnpj')
 															)); ?>
-<?php echo $this->Form->input('responsible', array('type' => 'text',
-																											'label' => false,
-																											'class' => 'campo',
-																											'style' => 'display: none;',
-																											'disabled' => 'disabled',
-																											'div' => array('class' => 'input text hidden-responsible')
-															)); ?>	
+<?php echo $this->Form->input('responsible', array('options' => $customers,
+																									 'type' => 'select',
+																									 'label' => false,
+																									 'class' => 'tipo',
+																									 'style' => 'display: none;',
+																									 'div' => array('class' => 'input select hidden-responsible')	
+															));	?>
 	</div>
 <?php echo $this->Form->input('phone', array('type' => 'text',
 																						 'label' => 'Telefone',
