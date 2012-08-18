@@ -58,10 +58,18 @@
 															)); ?>
 <?php echo $this->Form->input('cnpj', array('type' => 'text',
 																											'label' => false,
+																											'class' => 'hidden-cnpj',
+																											'style' => 'display: none;',
+																											'disabled' => 'disabled',
+																											'div' => array('class' => 'input text hidden-cnpj')
+															)); ?>
+<?php echo $this->Form->input('responsible', array('type' => 'text',
+																											'label' => false,
 																											'class' => 'campo',
 																											'style' => 'display: none;',
-																											'disabled' => 'disabled'
-															)); ?>
+																											'disabled' => 'disabled',
+																											'div' => array('class' => 'input text hidden-responsible')
+															)); ?>	
 	</div>
 <?php echo $this->Form->input('phone', array('type' => 'text',
 																						 'label' => 'Telefone',

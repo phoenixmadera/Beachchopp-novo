@@ -190,37 +190,4 @@ $(document).ready(function() {
 					width = $('#ClienteCountry_cadastrado'+end_count_aux).textWidth()+'px';
 					$('#ClienteCountry_cadastrado'+end_count_aux).css('width', width);																																
 			});
-			
-		//option Tipo de pessoa ao carregar a pagina
-		if($("#ClienteFlgType option:selected").val() == 'F'){
-				var cpf_value = $('.elements .input.required #ClienteCpf').val();
-				if($('.elements .input').hasClass('error')){
-					$('.elements .input.error').before('<label for="cpf">CPF</label><input name="data[Cliente][cpf]" class="campo" type="text" id="ClienteId" value= "'+cpf_value+'"></input>');
-				} else {
-					$('.elements .input.required #ClienteCpf').after('<label for="cpf">CPF</label><input name="data[Cliente][cpf]" class="campo" type="text" id="ClienteId" value= "'+cpf_value+'"></input>');
-				}
-		} else if($("#ClienteFlgType option:selected").val() == 'J'){
-				//Tem que validar aqui o CNPJ
-				var cnpj_value = $('.elements .input.required #ClienteCnpj').val();
-				if($('.elements .input').hasClass('error')){
-					$('.elements .input.error').before('<label for="cnpj">CNPJ</label><input name="data[Cliente][cnpj]" class="campo" type="text" id="ClienteCnpj" value= "'+cnpj_value+'"></input>');
-				} else {
-					$('.elements .input.required #ClienteCnpj').after('<label for="cnpj">CNPJ</label><input name="data[Cliente][cnpj]" class="campo" type="text" id="ClienteCnpj" value= "'+cnpj_value+'"></input>');
-				}
-		}
-		
-		//option Tipo de pessoa change
-		$('#ClienteFlgType').change(function(){
-			if($("#ClienteFlgType option:selected").val() == 'F'){
-			$('.elements').html('<div class = "input text cpf">');
-			$('.elements .input.text').hide().html('<label for="ClienteCpf">CPF</label>'+
-																			'<input name="data[Cliente][cpf]" class="campo" type="text" id="ClienteCpf">').fadeIn('slow');
-			$('.elements .input.text.cnpj').remove();
-		} else if($("#ClienteFlgType option:selected").val() == 'J'){
-				$('.elements').html('<div class = "input text cnpj">');
-				$('.elements .input.text').hide().html('<label for="ClienteCnpj">CNPJ</label>'+
-																				'<input name="data[Cliente][cnpj]" class="campo" type="text" id="ClienteCnpj">').fadeIn('slow');
-				$('.elements .input.text.cpf').remove();
-		}
-		});
   }); 

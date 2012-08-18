@@ -36,15 +36,14 @@ $(document).ready(function() {
 			});
 		}
 
-		function capitalize(string)	{
-    	return string.charAt(0).toUpperCase() + string.slice(1);
-  	}
-
 		$.fn.controlCustomerType = function(){
 			$('#ClienteFlgType option:selected').each(function() {
+
 				var cpf_value = $('.elements .input.required #ClienteCpf').val();
 				var val = $(this).val();
+
 				$('.elements .aux').remove();
+				
 				switch(val){
 					case 'F':
 						if($('.elements .input').hasClass('error')){
@@ -57,12 +56,18 @@ $(document).ready(function() {
 					break;
 						case 'J':
 							var cnpj_value = $('.elements .input.required #ClienteCnpj').val();
-						if($('.elements .input').hasClass('error')){
+							var responsible_value = $('.elements .input.required').val();
+						if($('.elements .input.hidden-cnpj').hasClass('error')){
 							$('.elements').append('<div class = "input text required aux cnpj control-group error">');
 							$('.elements .cnpj.control-group.error').append('<label for="cnpj">CNPJ</label><input name="data[Cliente][cnpj]" class="campo" type="text" id="ClienteCnpj" value= "'+cnpj_value+'"></input>');
+						} else if($('.elements .input.hidden-responsible').hasClass('error')) {
+							$('.elements').append('<div class = "input text required aux responsible control-group error">');
+							$('.elements .responsible.control-group.error').append('<label for="responsible">Responsável</label><input name="data[Cliente][responsible]" class="campo" type="text" id="ClienteResponsible" value= "'+cnpj_value+'"></input>');
 						} else {
-							$('.elements').append('<div class = "input text required aux cnpj">');
-							$('.elements .aux').hide().append('<label for="cnpj">CNPJ</label><input name="data[Cliente][cnpj]" class="campo" type="text" id="ClienteCnpj" value= "'+cnpj_value+'"></input>').fadeIn('slow');
+								$('.elements').append('<div class = "input text required aux cnpj">');
+								$('.elements .aux.cnpj').hide().append('<label for="cnpj">CNPJ</label><input name="data[Cliente][cnpj]" class="campo" type="text" id="ClienteCnpj" value= "'+cnpj_value+'"></input>').fadeIn('slow');
+								$('.elements').append('<div class = "input text required aux responsible">');
+								$('.elements .aux.responsible').hide().append('<label for="cnpj">Responsável</label><input name="data[Cliente][responsible]" class="campo" type="text" id="ClienteResponsible" value= "'+cnpj_value+'"></input>').fadeIn('slow');
 						}
 					break;
 				}
