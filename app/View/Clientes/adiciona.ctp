@@ -5,6 +5,8 @@
 
 		var state_value_default = $('#ClienteState').html();
 		var city_value_default = $('#ClienteCity').html();
+		var cpf_value = $('.elements .input.required #ClienteCpf').val();
+		var cnpj_value = $('.elements .input.required #ClienteCnpj').val();
 
 		//Popula os selects ao carregar a página
 		$('#ClienteCountry').populaSelects('#ClienteState', state_value_default);
@@ -21,6 +23,14 @@
 			$(this).populaSelects('#ClienteCity', city_value_default);
  		});
 
+ 		//Faz o controle do tipo de cliente toda vez que carrega a página.
+		$('#ClienteFlgType').controlCustomerType();
+
+ 		//Faz o controle do tipo de cliente toda vez que muda o select.
+		$('#ClienteFlgType').change(function(){
+			$('#ClienteFlgType').controlCustomerType();
+		});
+
  	});
 </script>
 <div class="alert alert-error">
@@ -29,7 +39,7 @@
 <div class = "add-customers">
 <?php echo $this->Form->create('Cliente', array('action' => 'adiciona')); ?>
 	<div class = "personal-info">
-		<h2>Dados pessoais</h2>
+		<h2>Dados pessoais/comerciais</h2>
 <?php echo $this->Form->input('name', array('type' => 'text',
 																						'label' => 'Nome Completo',
 																						'class' => 'campo'

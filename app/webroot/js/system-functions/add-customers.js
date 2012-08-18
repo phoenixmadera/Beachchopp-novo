@@ -20,7 +20,7 @@ $(document).ready(function() {
 
   	/* 
   		Função genérica pra popular os selects.
-  		@selector = Seletor Javascript filho do select que executará.
+  		@selector = Seletor Javascript filho(destino) do select que executará.
   		@value_default = Valor default(todos os options) do filho do select que executará. 
 		*/
   	$.fn.populaSelects = function(selector, value_default){
@@ -36,5 +36,36 @@ $(document).ready(function() {
 			});
 		}
 
+		function capitalize(string)	{
+    	return string.charAt(0).toUpperCase() + string.slice(1);
+  	}
 
+		$.fn.controlCustomerType = function(){
+			$('#ClienteFlgType option:selected').each(function() {
+				var cpf_value = $('.elements .input.required #ClienteCpf').val();
+				var val = $(this).val();
+				$('.elements .aux').remove();
+				switch(val){
+					case 'F':
+						if($('.elements .input').hasClass('error')){
+							$('.elements').append('<div class = "input text required aux cpf control-group error">');
+							$('.elements .cpf.control-group.error').append('<label for="cpf">CPF</label><input name="data[Cliente][cpf]" type="text" id="ClienteId" value= "'+cpf_value+'"></input>');
+					} else {
+						$('.elements').append('<div class = "input text required aux cpf">');
+						$('.elements .aux').hide().append('<label for="cpf">CPF</label><input name="data[Cliente][cpf]" type="text" id="ClienteId" value= "'+cpf_value+'"></input>').fadeIn('slow');
+					}
+					break;
+						case 'J':
+							var cnpj_value = $('.elements .input.required #ClienteCnpj').val();
+						if($('.elements .input').hasClass('error')){
+							$('.elements').append('<div class = "input text required aux cnpj control-group error">');
+							$('.elements .cnpj.control-group.error').append('<label for="cnpj">CNPJ</label><input name="data[Cliente][cnpj]" class="campo" type="text" id="ClienteCnpj" value= "'+cnpj_value+'"></input>');
+						} else {
+							$('.elements').append('<div class = "input text required aux cnpj">');
+							$('.elements .aux').hide().append('<label for="cnpj">CNPJ</label><input name="data[Cliente][cnpj]" class="campo" type="text" id="ClienteCnpj" value= "'+cnpj_value+'"></input>').fadeIn('slow');
+						}
+					break;
+				}
+			});
+		}
 });
